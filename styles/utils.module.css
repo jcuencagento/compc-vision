@@ -1,0 +1,212 @@
+.heading2Xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+}
+
+.headingXl {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+}
+
+.headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+}
+
+.headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.borderCircle {
+    border-radius: 9999px;
+}
+
+.colorInherit {
+    color: inherit;
+}
+
+.padding1px {
+    padding-top: 1px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    margin: 0 0 1.25rem;
+}
+
+.lightText {
+    color: #666;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linkGithub {
+    margin-right: auto;
+}
+
+.headercontent {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #cfc7c7;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footercontent {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headerHelp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.helpIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.uploadImage {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.imageUploadDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+}
+
+.imageUploaded {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .heading2Xl {
+        font-size: 2rem;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: -0.05rem;
+        margin: 1rem 0;
+    }
+
+    .headingXl {
+        font-size: 1.5rem;
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: -0.05rem;
+        margin: 1rem 0;
+    }
+
+    .headingLg {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        margin: 1rem 0;
+    }
+
+    .headingMd {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .headercontent {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .headercontent h1{
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .headercontent h3{
+        font-size: 0.8rem;
+        line-height: 1;
+    }
+
+	.footercontent {
+		width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+	}
+
+    .headerHelp {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .helpIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .uploadImage {
+        margin-top: 20%;
+        display: block;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .uploadImage * {
+        margin: 5px;
+    }
+
+    .imageUploadDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        width: 80%;
+    }
+
+    .imageUploaded {
+        height: 100%;
+        width: 100%;
+    }
+}

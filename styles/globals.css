@@ -1,14 +1,22 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+      Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h3:hover,
+h4:hover,
+a:hover {
+  text-decoration: underline;
 }
 
 * {
@@ -18,6 +26,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 h1,
@@ -35,4 +44,19 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
 }
