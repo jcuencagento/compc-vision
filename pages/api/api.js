@@ -3,7 +3,7 @@ import { fetchAmazonAPI, fetchGoogleAPI, fetchAzureAPI } from './requests';
 export const requestAllAPIs = (image, cb) => {
     Promise.all([
         fetchAmazonAPI(image),
-        //fetchGoogleAPI(image),
+        fetchGoogleAPI(image),
         fetchAzureAPI(image)
     ])
         .then(results => cb(null, transformResponsesToImageDescriptions(image, results) || []))

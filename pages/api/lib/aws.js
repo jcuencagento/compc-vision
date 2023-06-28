@@ -1,4 +1,3 @@
-const translate = require('@vitalets/google-translate-api');
 const AWS = require('aws-sdk');
 const aws_keys = require('../../../public/passwords/key_aws.json');
 

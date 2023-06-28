@@ -11,7 +11,7 @@ const MyHeader = () =>  {
     const handleAyuda = () => {
         swal({
             title: 'Ayuda',
-            text: 'Se puede comenzar y terminar la encuesta en cualquier momento, pero si recarga la página durante la encuesta se perderán los datos. Ningún dato personal ni imágenes son guardados en la parte de Pruébalo!',
+            text: 'Se puede comenzar y terminar la encuesta en cualquier momento, pero si recarga la página durante la encuesta se perderían las respuestas y se comenzaría de nuevo. Ningún dato personal ni imágenes son guardados en la parte de Pruébalo!',
             icon: 'info'
         });
     };

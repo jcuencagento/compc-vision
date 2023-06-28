@@ -1,19 +1,26 @@
 import { useState } from 'react';
 import styles from '../styles/utils.module.css';
+import axios from 'axios';
 
 export default function ImageUpload({ onImageUpload }) {
     const [selectedImage, setSelectedImage] = useState(null);
 
-    const handleImageUpload = (event) => {
+    const handleImageUpload = async (event) => {
         const file = event.target.files[0];
         if (file) {
-            const reader = new FileReader();
-            reader.onload = () => {
-                setSelectedImage(reader.result);
-                onImageUpload(true);
-            };
+            const imageURL = URL.createObjectURL(file);
+            setSelectedImage(imageURL);
 
-            reader.readAsDataURL(file);
+            const formData = new FormData();
+            formData.append('image', file);
+
+            try {
+                const response = await axios.post('/api/upload', formData);
+                const imageUrl = response.data.imageUrl;
+                onImageUpload(imageUrl);
+            } catch (error) {
+                console.error('Error uploading image:', error);
+            }
         }
     };
 

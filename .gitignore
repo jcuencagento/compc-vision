@@ -29,7 +29,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# passwords
+# public stuff
 /public/passwords
 /public/images
 /public/img
+
+# uploaded images
+/pages/uploads

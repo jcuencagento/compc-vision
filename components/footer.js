@@ -7,8 +7,6 @@ const Footer = () =>  {
         swal({
             title: 'Contacto',
             text: 'Javier Cuenca Gento. Ingeniero en Tecnologías de Telecomunicaciones.',
-            icon: '/img/uc3m.png',
-            iconSize: '100x100',
             buttons: {
                 confirm: "Linkedin",
                 roll: {

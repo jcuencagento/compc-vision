@@ -2,22 +2,31 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../../components/layout';
 import styles from '../../styles/Survey.module.css';
+import stylesUtils from '../../styles/utils.module.css';
 import ImageUpload from '../../components/imageupload';
 import swal from 'sweetalert';
+import Loader from '../../components/loader';
 
 export default function Upload() {
     const router = useRouter();
     const [imageUploaded, setImageUploaded] = useState(false);
+    const [uploading, setUploading] = useState(false);
     const [imageDescriptions, setImageDescriptions] = useState({});
 
     useEffect(() => {
         const fetchImageDescriptions = async () => {
             if (imageUploaded) {
                 try {
+                    setUploading(true);
+                    const formData = new FormData();
+                    formData.append('image', imageUploaded);
+
+                    console.log({ imageUploaded })
+                    console.log({ formData });
+
                     const response = await fetch('/api/image-descriptions', {
                         method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ image: '/images/0ee903ea13.jpg' })
+                        body: formData
                     });
 
                     if (!response.ok) {
@@ -25,9 +34,11 @@ export default function Upload() {
                         throw new Error('An error occurred while fetching image descriptions');
                     }
 
-                    const data = await response.json();
+                    console.log('Upload useEffect');
+                    console.log({ response });
 
-                    swal(`Results: ${data.aws_description}, ${data.google_description}, ${data.azure_description}`);
+                    const data = await response.json();
+                    setUploading(false);
                     setImageDescriptions(data);
                 } catch (error) {
                     console.error(error);
@@ -61,7 +72,7 @@ export default function Upload() {
                 break;
         }
 
-        swal("Muchas gracias!");
+        swal("Muchas gracias... Puede probar de nuevo cuando quiera!");
         //sendResponsesPruebalo(chosen_aws, chosen_google, chosen_azure, chosen_none);
         router.push('/');
     }
@@ -71,24 +82,24 @@ export default function Upload() {
             {!imageUploaded ? <h1>Pruébalo</h1> : null}
             <ImageUpload onImageUpload={setImageUploaded} />
             {imageUploaded ?
-                (Object.entries(imageDescriptions).length === 1 ? (
-                    <h4>Cargando....</h4>
+                (Object.keys(imageDescriptions).length === 0 || uploading ? (
+                    <Loader />
                 ) : (
                     <div className={styles.options}>
                         <button
                             className={styles.buttonOpt}
                             onClick={() => handleAnswer('Opt1')}>
-                            {imageDescriptions.aws_description || 'AWS'}
+                            {imageDescriptions.aws_description || 'Fallo de AWS'}
                         </button>
                         <button
                             className={styles.buttonOpt}
                             onClick={() => handleAnswer('Opt2')}>
-                            {imageDescriptions.azure_description || 'AZURE'}
+                            {imageDescriptions.azure_description || 'Fallo de AZURE'}
                         </button>
                         <button
                             className={styles.buttonOpt}
                             onClick={() => handleAnswer('Opt3')}>
-                            {imageDescriptions.google_description || 'GOOGLE'}
+                            {imageDescriptions.google_description || 'Fallo de GOOGLE'}
                         </button>
                         <button className={styles.buttonOpt} onClick={() => handleAnswer('None')}>
                             No me convence ninguna opción
@@ -96,7 +107,9 @@ export default function Upload() {
                     </div>
                 )
             ) : (
-                <h5>No tengas miedo</h5>
+                <div>
+                    <h5>No tengas miedo</h5>
+                </div>
             )}
         </Layout>
     );

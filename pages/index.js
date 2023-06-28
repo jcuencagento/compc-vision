@@ -27,10 +27,10 @@ export default function Home() {
         <main className={styles.container}>
             <p className={styles.description}>
                 Comparador de las <code>APIs</code> de reconocimiento de imágenes de las empresas
-                punteras en inteligencia artificial y tecnología como{' '}
-                <a href="https://cloud.google.com/?hl=es"><code>Google Cloud</code></a>{' '},{' '}
-                <a href="https://azure.microsoft.com/es-es"><code>Microsoft Azure</code></a>{' '}y{' '}
-                <a href="https://aws.amazon.com/es/"><code>Amazon Web Services</code></a>.
+                punteras en inteligencia artificial y tecnología como<code>{' '}
+                <a href="https://cloud.google.com/?hl=es">Google Cloud</a>{' '},{' '}
+                <a href="https://azure.microsoft.com/es-es">Microsoft Azure</a>{' '}y{' '}
+                <a href="https://aws.amazon.com/es/">Amazon Web Services</a>.</code>
             </p>
             <div className={styles.grid}>
                 <Link href="/survey/Survey" className={styles.card}>

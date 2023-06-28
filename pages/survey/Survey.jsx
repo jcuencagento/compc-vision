@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import swal from 'sweetalert';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Layout from '../../components/layout';
 import styles from '../../styles/Survey.module.css';
 
-export default function Survey() {
+export default function Survey({ shuffledImageDescriptions }) {
     const router = useRouter();
     const [currentStep, setCurrentStep] = useState(0);
     const [finish, setFinish] = useState(false);
@@ -13,20 +13,6 @@ export default function Survey() {
     let chosen_google = 0;
     let chosen_azure = 0;
     let chosen_none = 0;
-
-    //Esto vendrá de csv
-    const steps = [
-      { image: '/images/0be3797d3d.jpg', opt1: 'Hola', opt2: 'Adios', opt3: 'Yeahh' },
-      { image: '/images/0dbf839301.jpg',  opt1: 'Mono', opt2: 'Monaco', opt3: 'Gorilin' },
-      { image: '/images/0ee903ea13.jpg', opt1: 'Si', opt2: 'No', opt3: 'Claro' },
-      { image: '/images/1b0b0b614b.jpg',  opt1: 'Ciervo', opt2: 'Madridista', opt3: 'Perro' },
-      { image: '/images/0be3797d3d.jpg', opt1: 'Hola', opt2: 'Adios', opt3: 'Yeahh' },
-      { image: '/images/0dbf839301.jpg',  opt1: 'Mono', opt2: 'Monaco', opt3: 'Gorilin' },
-      { image: '/images/0be3797d3d.jpg', opt1: 'Hola', opt2: 'Adios', opt3: 'Yeahh' },
-      { image: '/images/0dbf839301.jpg',  opt1: 'Mono', opt2: 'Monaco', opt3: 'Gorilin' },
-      // Add more steps as needed
-    ];
-
     const handleAnswer = (answer) => {
         // Handle the selected answer
         switch (answer) {
@@ -47,7 +33,7 @@ export default function Survey() {
                 break;
         }
 
-        if (currentStep < steps.length - 2) {
+        if (currentStep < shuffledImageDescriptions.length - 2) {
             setCurrentStep(currentStep + 1);
         } else {
             swal("Wow, más de 200 imágenes respondidas!");
@@ -78,14 +64,13 @@ export default function Survey() {
     };
 
     const renderCurrentStep = () => {
-        const step = steps[currentStep];
-
+        const step = shuffledImageDescriptions[currentStep];
         return (
             <div>
                 <Image
                     className={styles.image}
                     priority
-                    src={step.image}
+                    src={'/images/'+step.image_name}
                     height={144}
                     width={144}
                     alt="Survey Image"
@@ -94,17 +79,17 @@ export default function Survey() {
                     <button
                         className={styles.buttonOpt}
                         onClick={() => handleAnswer('Opt1')}>
-                        {step.opt1}
+                        {step.google_desc}
                     </button>
                     <button
                         className={styles.buttonOpt}
                         onClick={() => handleAnswer('Opt2')}>
-                        {step.opt2}
+                        {step.aws_desc}
                     </button>
                     <button
                         className={styles.buttonOpt}
                         onClick={() => handleAnswer('Opt3')}>
-                        {step.opt3}
+                        {step.azure_desc}
                     </button>
                     <button className={styles.buttonOpt} onClick={() => handleAnswer('None')}>
                         No me convence ninguna opción
@@ -125,3 +110,15 @@ export default function Survey() {
       </Layout>
     );
 };
+
+export async function getStaticProps() {
+    const { shuffleArray } = await import('../../public/utils');
+    const imageDescriptions = await import('../../public/image_descriptions.json');
+    const shuffledImageDescriptions = shuffleArray(imageDescriptions.default);
+    return {
+        props: {
+            shuffledImageDescriptions
+        }
+    };
+}
+

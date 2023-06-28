@@ -1,7 +1,8 @@
-const translate = require('@vitalets/google-translate-api');
-import { createClient } from '@google-cloud/vision';
-const google_keys = require('../../../public/passwords/key_google.json');
+const { ImageAnnotatorClient } = require('@google-cloud/vision');
 
 //Google Cloud
-const vision_client = new ImageAnnotatorClient({ google_keys });
+const vision_client = new ImageAnnotatorClient({
+    keyFilename: '/home/javierc/Proyectos/tfg-nextjs/public/passwords/key_google.json',
+});
+
 export default  vision_client;
