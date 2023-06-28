@@ -8,13 +8,14 @@ fs.readdir(UPLOADS_DIR, (err, files) => {
         return;
     }
 
+    console.log('Job -> Delete uploaded images if any remain...')
     files.forEach((file) => {
         fs.unlink(path.join(UPLOADS_DIR, file), (error) => {
             if (error) {
                 console.error('Error deleting image:', error);
             }
 
-            console.log('Image deleted...');
+            console.log(' - image deleted');
         });
     });
 });

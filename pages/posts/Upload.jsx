@@ -6,9 +6,11 @@ import stylesUtils from '../../styles/utils.module.css';
 import ImageUpload from '../../components/imageupload';
 import swal from 'sweetalert';
 import Loader from '../../components/loader';
+import ErrorAnimation from '../../components/erroranimation';
 
 export default function Upload() {
     const router = useRouter();
+    const [errorRequest, setErrorRequest] = useState(false);
     const [imageUploaded, setImageUploaded] = useState(false);
     const [uploading, setUploading] = useState(false);
     const [imageDescriptions, setImageDescriptions] = useState({});
@@ -41,6 +43,7 @@ export default function Upload() {
                     setUploading(false);
                     setImageDescriptions(data);
                 } catch (error) {
+                    setErrorRequest(true);
                     console.error(error);
                 }
             }
@@ -83,7 +86,7 @@ export default function Upload() {
             <ImageUpload onImageUpload={setImageUploaded} />
             {imageUploaded ?
                 (Object.keys(imageDescriptions).length === 0 || uploading ? (
-                    <Loader />
+                    errorRequest ? ( <ErrorAnimation /> ) : ( <Loader /> )
                 ) : (
                     <div className={styles.options}>
                         <button

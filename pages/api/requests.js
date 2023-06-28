@@ -72,9 +72,10 @@ export const fetchAzureAPI = (image) => {
     console.log({ imageAzure: image });
     return new Promise((resolve, reject) => {
         const ngrok_url = 'https://e8eb-2-139-212-134.eu.ngrok.io';
-        const image_url = image.split('pages')[1]
+        const image_url = image.split('pages')[1];
+        const example_url = 'https://bucket01jcg.blob.core.windows.net/animals/07c803c409.jpg';
         cv_client
-            .analyzeImage('https://bucket01jcg.blob.core.windows.net/animals/07c803c409.jpg', { visualFeatures: ['Description'] })
+            .analyzeImage('http://localhost:3003'+image_url, { visualFeatures: ['Description'] })
             .then((image_analysis) => {
                 console.log({ image_analysis });
                 if (image_analysis.description.captions.length > 0) {

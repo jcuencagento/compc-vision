@@ -1,35 +1,80 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import swal from 'sweetalert';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Layout from '../../components/layout';
 import styles from '../../styles/Survey.module.css';
 
+const shuffleArray = (array) => {
+    const newArray = array.slice();
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+
+    return newArray;
+};
+
+const renderCurrentStep = (step, shuffledOptions, handleAnswer, handleFinish ) =>
+    (
+        <div>
+            <Image
+                className={styles.image}
+                priority
+                src={'/images/'+step.image_name}
+                height={144}
+                width={144}
+                alt="Survey Image"
+            />
+            <div className={styles.options}>
+                {shuffledOptions.map((option) => (
+                    <button
+                        key={option}
+                        className={styles.buttonOpt}
+                        onClick={() => handleAnswer(option)}
+                        >
+                        {step[option + '_desc']}
+                    </button>
+                ))}
+                <button className={styles.buttonOpt} onClick={() => handleAnswer('none')}>
+                    No me convence ninguna opción
+                </button>
+            </div>
+            <div className={styles.buttons}>
+                <button className={styles.buttonFinish} onClick={handleFinish}>
+                    Finalizar encuesta!
+                </button>
+            </div>
+        </div>
+    );
+
 export default function Survey({ shuffledImageDescriptions }) {
     const router = useRouter();
     const [currentStep, setCurrentStep] = useState(0);
     const [finish, setFinish] = useState(false);
-    let chosen_aws = 0;
-    let chosen_google = 0;
-    let chosen_azure = 0;
-    let chosen_none = 0;
+    const [shuffledOptions, setShuffledOptions] = useState([]);
+    const [chosen_aws, setChosenAWS] = useState(0);
+    const [chosen_google, setChosenGoogle] = useState(0);
+    const [chosen_azure, setChosenAzure] = useState(0);
+    const [chosen_none, setChosenNone] = useState(0);
+
     const handleAnswer = (answer) => {
-        // Handle the selected answer
+        console.log(`Un usuario elige ${answer}`)
         switch (answer) {
             case 'aws':
-                chosen_aws ++;
+                setChosenAWS(chosen_aws + 1);
                 break;
 
             case 'google':
-                chosen_google ++;
+                setChosenGoogle(chosen_google + 1);
                 break;
 
             case 'azure':
-                chosen_azure ++;
+                setChosenAzure(chosen_azure + 1);
                 break;
 
             default:
-                chosen_none ++;
+                setChosenNone(chosen_none + 1);
                 break;
         }
 
@@ -55,6 +100,9 @@ export default function Survey({ shuffledImageDescriptions }) {
             if (willDelete) {
                 swal("Terminado... Gracias!");
                 setFinish(true);
+                console.log(' - Usuario sale de la encuesta con estos resultados:');
+                console.log(`AWS: ${chosen_aws}, Google: ${chosen_google}, Azure: ${chosen_azure}, ninguno: ${chosen_none},`);
+                console.log(' -> Enviando a BBDD...');
                 //sendResponses(chosen_aws, chosen_google, chosen_azure, chosen_none);
                 router.push('/');
             } else {
@@ -63,51 +111,18 @@ export default function Survey({ shuffledImageDescriptions }) {
         });
     };
 
-    const renderCurrentStep = () => {
-        const step = shuffledImageDescriptions[currentStep];
-        return (
-            <div>
-                <Image
-                    className={styles.image}
-                    priority
-                    src={'/images/'+step.image_name}
-                    height={144}
-                    width={144}
-                    alt="Survey Image"
-                />
-                <div className={styles.options}>
-                    <button
-                        className={styles.buttonOpt}
-                        onClick={() => handleAnswer('Opt1')}>
-                        {step.google_desc}
-                    </button>
-                    <button
-                        className={styles.buttonOpt}
-                        onClick={() => handleAnswer('Opt2')}>
-                        {step.aws_desc}
-                    </button>
-                    <button
-                        className={styles.buttonOpt}
-                        onClick={() => handleAnswer('Opt3')}>
-                        {step.azure_desc}
-                    </button>
-                    <button className={styles.buttonOpt} onClick={() => handleAnswer('None')}>
-                        No me convence ninguna opción
-                    </button>
-                </div>
-                <div className={styles.buttons}>
-                    <button className={styles.buttonFinish} onClick={handleFinish}>
-                        Finalizar encuesta!
-                    </button>
-                </div>
-            </div>
-        );
-    };
+    useEffect(() => {
+        const options = ['google', 'aws', 'azure'];
+        const shuffled = shuffleArray(options);
+        setShuffledOptions(shuffled);
+    }, []);
+
+    const step = shuffledImageDescriptions[currentStep];
 
     return (
-      <Layout>
-        {finish ? null : renderCurrentStep()}
-      </Layout>
+        <Layout>
+            {finish ? null : renderCurrentStep(step, shuffledOptions, handleAnswer, handleFinish )}
+        </Layout>
     );
 };
 
