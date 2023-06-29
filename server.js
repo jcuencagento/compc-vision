@@ -3,7 +3,6 @@ const { parse } = require('url');
 const next = require('next');
 const express = require('express');
 const fileUpload = require('express-fileupload');
-const cron = require('node-cron');
 const uploadRouter = require('./api/upload');
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
@@ -20,11 +19,6 @@ app.prepare().then(() => {
         handle(req, res, parsedUrl);
     });
 
-    const job = cron.schedule('* * * * *', () => {
-        require('./image-cleanup.js');
-    });
-
-    job.start();
     createServer(server).listen(3003, (err) => {
         if (err) throw err;
         console.log('Server is running on port 3003');

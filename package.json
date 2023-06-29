@@ -1,38 +1,39 @@
 {
-  "name": "web-tfg",
-  "version": "1.0.0",
-  "description": "React Web to survey and interact Google, Amazon and Microsoft's vision APIs.",
-  "author": "Javier Cuenca Gento",
-  "license": "MIT",
-  "private": true,
-  "browser": {
-    "fs": false,
-    "path": false,
-    "os": false
-  },
-  "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js"
-  },
-  "dependencies": {
-    "@azure/cognitiveservices-computervision": "^8.2.0",
-    "@azure/ms-rest-azure-js": "^2.1.0",
-    "@google-cloud/vision": "^3.1.3",
-    "aws-sdk": "^2.1402.0",
-    "axios": "^1.4.0",
-    "express": "^4.18.2",
-    "express-fileupload": "^1.4.0",
-    "fs": "^0.0.1-security",
-    "google-auth-library": "^8.8.0",
-    "multer": "^1.4.5-lts.1",
-    "next": "latest",
-    "node-cron": "^3.0.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "semantic-ui-react": "^2.1.4",
-    "sweetalert": "^2.1.2",
-    "translate-google": "^1.5.0",
-    "uuid": "^9.0.0"
-  }
+	"name": "web-tfg",
+	"version": "1.0.0",
+	"description": "React Web to survey and interact Google, Amazon and Microsoft's vision APIs.",
+	"author": "Javier Cuenca Gento",
+	"license": "MIT",
+	"private": true,
+	"browser": {
+		"fs": false,
+		"path": false,
+		"os": false
+	},
+	"scripts": {
+		"dev": "node server.js",
+		"build": "next build",
+		"start": "NODE_ENV=production node server.js"
+	},
+	"dependencies": {
+		"@azure/cognitiveservices-computervision": "^8.2.0",
+		"@azure/ms-rest-azure-js": "^2.1.0",
+		"@google-cloud/vision": "^3.1.3",
+		"@vercel/analytics": "^1.0.1",
+		"@vercel/postgres": "^0.4.0",
+		"aws-sdk": "^2.1402.0",
+		"axios": "^1.4.0",
+		"express": "^4.18.2",
+		"express-fileupload": "^1.4.0",
+		"fs": "^0.0.1-security",
+		"google-auth-library": "^8.8.0",
+		"multer": "^1.4.5-lts.1",
+		"next": "^13.4.7",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"semantic-ui-react": "^2.1.4",
+		"sweetalert": "^2.1.2",
+		"translate-google": "^1.5.0",
+		"uuid": "^9.0.0"
+	}
 }
