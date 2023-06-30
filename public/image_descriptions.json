@@ -1,1472 +1,1472 @@
 [
     {
-        "image_name": "4c6ec7185d.jpg",
-        "category": "animals",
-        "google_desc": "Hay una persona con el cabello largo y rizado. Lleva una camisa blanca y unos pantalones vaqueros.",
-        "aws_desc": "El león es un mamífero salvaje que pertenece a la familia de los félidos. Es una de las criaturas más grandes y poderosas",
-        "azure_desc": "un león acostado"
-    },
-    {
-        "image_name": "6b4b95f0c4.jpg",
-        "category": "animals",
-        "google_desc": "La imagen muestra a una persona en una habitación. La persona está sentada en una silla y parece estar leyendo un libro.",
-        "aws_desc": "El ratón es un mamífero pequeño y de pelaje suave. Tiene una cola larga y es muy ágil. Vive en zonas urbanas y campestres",
-        "azure_desc": "Un bate con la cabeza de un ratón"
-    },
-    {
-        "image_name": "6be2eb3fb3.jpg",
-        "category": "animals",
-        "google_desc": "In the image, there is a bird in flight with its wings outstretched. The bird is surrounded by a swarm of flies.",
-        "aws_desc": "El animal en la imagen tiene un pico y es un pájaro. Puede ser un periquito o un loro.",
-        "azure_desc": "una persona sosteniendo un lagarto verde"
-    },
-    {
-        "image_name": "6e21804c31.jpg",
-        "category": "animals",
-        "google_desc": "En la imagen se ve a una persona de pie en una habitación. La persona está de espaldas a la cámara y parece estar mirando por la ventana.",
-        "aws_desc": "El animal en la imagen es un tigre, un mamífero terrestre. Puede verse que está en un ambiente natural, probablemente en una selva, y que est",
-        "azure_desc": "un tigre caminando sobre una roca"
-    },
-    {
-        "image_name": "72decb40db.jpg",
-        "category": "animals",
-        "google_desc": "This image is of a bird.",
-        "aws_desc": "Se ve un ave de color teal en un cuerpo de agua. Parece ser una anseriforme, una categoría de aves acuáticas que incluyen gansos",
-        "azure_desc": "Un pato de pie sobre la hierba"
-    },
-    {
-        "image_name": "7c43d5ca9e.jpg",
-        "category": "animals",
-        "google_desc": "La imagen muestra una flor que está fluyendo en el agua.",
-        "aws_desc": "El animal en la imagen es un perro dorado de raza Golden Retriever. Los perros Golden Retriever son perros muy dóciles y cariñosos.",
-        "azure_desc": "un perro corriendo a través de un campo de flores amarillas"
-    },
-    {
-        "image_name": "7c99b5a89d.jpg",
-        "category": "animals",
-        "google_desc": "La imagen muestra a una pareja de pingüinos que parecen estar caminando en la nieve.",
-        "aws_desc": "El animal en la imagen es un pinguino adulto macho.",
-        "azure_desc": "un hombre arrodillado al lado de los pingüinos"
-    },
-    {
-        "image_name": "7d42f0e881.jpg",
-        "category": "animals",
-        "google_desc": "Hay una planta en una maceta en una mesa.",
-        "aws_desc": "La imagen muestra a una vaca en un campo. La vaca es un animal de la familia de los rumiantes. Los rumiantes son un grupo de animales que incluyen a",
-        "azure_desc": "un grupo de vacas con la boca abierta"
-    },
-    {
-        "image_name": "7d8f058238.jpg",
-        "category": "animals",
-        "google_desc": "El niño está comiendo una galleta mientras está sentado en la silla.",
-        "aws_desc": "El león es un mamífero salvaje que vive en los campos.",
-        "azure_desc": "un león en un campo"
-    },
-    {
-        "image_name": "7e29f317b0.jpg",
-        "category": "animals",
-        "google_desc": "El plano de la casa es muy grande y tiene una gran terraza.",
-        "aws_desc": "La imagen muestra a una vaca en un campo. La vaca es un animal de la familia de los rumiantes que se cría como ganado para la obtención de car",
-        "azure_desc": "Una vaca en un campo"
-    },
-    {
-        "image_name": "81b58d7d07.jpg",
-        "category": "animals",
-        "google_desc": "La imagen muestra a un gato sentado en una silla.",
-        "aws_desc": "En la imagen se ve un gato pequeño jugando en un prado. El gato es un mamífero y los gatos son conocidos por ser muy curiosos.",
-        "azure_desc": "un grupo de gatitos en la hierba"
-    },
-    {
-        "image_name": "83e8a824a2.jpg",
-        "category": "animals",
-        "google_desc": "El gato es negro y tiene una cola.",
-        "aws_desc": "Este es un gato joven, probablemente un bebé. Los gatos son animales de sangre caliente, lo que significa que mantienen una temperatura corporal constante,",
-        "azure_desc": "Un gato acostado en la hierba"
-    },
-    {
-        "image_name": "8ef5c5ba7d.jpg",
-        "category": "animals",
-        "google_desc": "In the image, there is a large, green plant with long, thin leaves. The plant is in a pot on a table. There is a window in the background.",
-        "aws_desc": "El tigre es un mamífero del orden de los carnívoros. Tiene un cuerpo cubierto de pelaje amarillento con rayas negras, y es el",
-        "azure_desc": "un tigre y un bebé tigre acostado en la hierba"
-    },
-    {
-        "image_name": "99e296bf48.jpg",
-        "category": "animals",
-        "google_desc": "En la imagen, hay una persona de pie sobre una superficie plana. La persona está rodeada por una gran cantidad de objetos redondos de diferentes colores",
-        "aws_desc": "En la imagen se ve una animal, un mamífero, vida silvestre, una ardilla y un cerdo.",
-        "azure_desc": "Un tejón en la hierba"
-    },
-    {
-        "image_name": "9bd48a19a4.jpg",
-        "category": "animals",
-        "google_desc": "El perro es un animal mamífero de la familia de los cánidos. Tiene un cuerpo robusto, una cola en forma de espiga y cuatro patas con g",
-        "aws_desc": "El perro es un mamífero de la familia de los cánidos, que incluye al lobo. Los perros domésticos más comunes son los de raza, aun",
-        "azure_desc": "un perro con collar"
-    },
-    {
-        "image_name": "002_0232.jpeg",
-        "category": "architecture",
-        "google_desc": "La imagen muestra un cielo azul con unas pocas nubes blancas.",
-        "aws_desc": "En la imagen se ve una persona en primer plano frente a un temple de arquitectura griega clásica. El templo es el Partenón.",
-        "azure_desc": "Un edificio de piedra con estatuas"
-    },
-    {
-        "image_name": "006_0004.jpg",
-        "category": "architecture",
-        "google_desc": "La imagen muestra un paisaje de un océano con grandes olas y un fuerte viento.",
-        "aws_desc": "Basketball En la imagen, hay una persona que está haciendo un truco de basquet con una canasta de basquet y una pelota de basquet. La persona está en una ci",
-        "azure_desc": "un reloj en un poste"
-    },
-    {
-        "image_name": "007_0005.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo está azul y el sol está brillante.",
-        "aws_desc": "La imagen muestra un templo de arquitectura tradicional. El templo está lleno de gente que reza y ofrece oraciones a los dioses.",
-        "azure_desc": "un edificio con columnas"
-    },
-    {
-        "image_name": "008_0001.jpg",
-        "category": "architecture",
-        "google_desc": "En la imagen se ve una bañera con una toalla blanca.",
-        "aws_desc": "En la imagen se ve a una persona bañándose en una bañera de hidromasaje.",
-        "azure_desc": "una bañera con una ventana"
-    },
-    {
-        "image_name": "033_0033.jpeg",
-        "category": "architecture",
-        "google_desc": "El cielo está azul y el sol está brillando.",
-        "aws_desc": "Tourist Attraction El acueducto de Segovia es un monumento histórico y una de las principales atracciones turísticas de la ciudad.",
-        "azure_desc": "un puente de piedra con arcos con segovia en el fondo"
-    },
-    {
-        "image_name": "058_0024.jpg",
-        "category": "architecture",
-        "google_desc": "La puerta es de color marrón y está abierta.",
-        "aws_desc": "La imagen muestra una puerta de madera con una manija de metal. La manija está corroída y la puerta está envejecida y oxidada.",
-        "azure_desc": "una manija de puerta de metal"
-    },
-    {
-        "image_name": "062_0001.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo está nublado.",
-        "aws_desc": "La imagen muestra un paisaje urbano durante la noche. Se puede ver la luna llena en el cielo y los edificios iluminados a lo lejos.",
-        "azure_desc": "una torre alta con luces por la noche"
-    },
-    {
-        "image_name": "062_0040.jpg",
-        "category": "architecture",
-        "google_desc": "La imagen muestra una torre.",
-        "aws_desc": "La imagen muestra una ciudad iluminada por la noche. La ciudad es una metrópolis urbana.",
-        "azure_desc": "una torre alta con luces"
-    },
-    {
-        "image_name": "112_0077.jpeg",
-        "category": "architecture",
-        "google_desc": "El cielo es azul.",
-        "aws_desc": "La Sagrada Familia es una iglesia en Barcelona, España. Fue diseñada por el arquitecto Antoni Gaudí y construida entre 1882 y 1926. La ig",
-        "azure_desc": "un gran edificio de piedra"
-    },
-    {
-        "image_name": "122_0033.jpeg",
-        "category": "architecture",
-        "google_desc": "En la imagen se ve un cielo azul con unas pocas nubes blancas.",
-        "aws_desc": "En la imagen se puede ver una arquitectura impresionante, un edificio de gran altura y una hermosa villa.",
-        "azure_desc": "una casa con un césped"
-    },
-    {
-        "image_name": "135_0073.jpg",
-        "category": "architecture",
-        "google_desc": "In the image there is a P, an l, an a, an n and a t.",
-        "aws_desc": "En la imagen se ve un paisaje de césped y naturaleza al aire libre en un patio trasero.",
-        "azure_desc": "un edificio de ladrillo con un letrero frente a"
-    },
-    {
-        "image_name": "162_0016.jpg",
-        "category": "architecture",
-        "google_desc": "In the image there is a plant with leaves.",
-        "aws_desc": "En la imagen se ve una calle de vecindario con césped y casas en los dos lados. Las casas parecen tener un buen tamaño y estar en bu",
-        "azure_desc": "una casa con un césped y una mesa de picnic en el frente"
-    },
-    {
-        "image_name": "162_0034.jpg",
-        "category": "architecture",
-        "google_desc": "Hay un plano de una casa en el que se ven los cuatro cuartos, la cocina y el baño.",
-        "aws_desc": "Imagen de una casa de madera en medio de un paisaje natural con vegetación. La casa tiene una terraza y un jardín.",
-        "azure_desc": "Una estructura de madera en el bosque"
-    },
-    {
-        "image_name": "167_0005.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo está despejado y es de un hermoso color azul. El sol brilla y hace un bonito día.",
-        "aws_desc": "La imagen muestra una pirámide de Egipto, uno de los monumentos más reconocidos a nivel mundial. La pirámide se caracteriza por su form",
-        "azure_desc": "una gran pirámide con luces con pirámide de Louvre en el fondo"
-    },
-    {
-        "image_name": "167_0009.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo está nublado.",
-        "aws_desc": "Una persona está parada enfrente de una pirámide. La persona parece estar admirando la arquitectura del edificio, que es una famosa landmark.",
-        "azure_desc": "un gran edificio con una pirámide de vidrio"
-    },
-    {
-        "image_name": "167_0080.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo es de un color azul intenso y el sol brilla con fuerza. Hay una pequeña nube blanca en un extremo.",
-        "aws_desc": "Temple La imagen muestra una pirámide de piedra blanca que se encuentra en medio de un desierto. Alrededor de la pirámide hay una ser",
-        "azure_desc": "una pirámide con escaleras con chichén itza en el fondo"
-    },
-    {
-        "image_name": "180_0021.jpeg",
-        "category": "architecture",
-        "google_desc": "El cielo está lleno de nubes y el sol se está poniendo.",
-        "aws_desc": "La imagen muestra una edificación con forma de cúpula, que parece ser una catedral u iglesia. La parte inferior de la misma está sost",
-        "azure_desc": "un gran edificio con cúpula con la Catedral de Florencia en el fondo"
-    },
-    {
-        "image_name": "187_0010.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo está nublado.",
-        "aws_desc": "La imagen muestra una ciudad de rascacielos y edificios altos. La ciudad es muy grande y parece muy animada.",
-        "azure_desc": "un edificio alto con muchas ventanas"
-    },
-    {
-        "image_name": "187_0055.jpg",
-        "category": "architecture",
-        "google_desc": "El edificio es grande y tiene una escalera que lleva a la entrada. Hay una puerta y una ventana.",
-        "aws_desc": "La imagen muestra una ciudad con edificios y una torre con un reloj.",
-        "azure_desc": "Un edificio alto en Empire State Building"
-    },
-    {
-        "image_name": "187_0066.jpg",
-        "category": "architecture",
-        "google_desc": "En la imagen se ve un vaso de agua sobre una mesa. El agua está clara y el vaso está limpio.",
-        "aws_desc": "La imagen muestra una ciudad metropolitana situada en la orilla del agua. Las condominios en la ciudad se ven impresionantes en la noche.",
-        "azure_desc": "Un horizonte de la ciudad con un puente"
-    },
-    {
-        "image_name": "187_0090.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo está nublado.",
-        "aws_desc": "La imagen muestra una ciudad moderna y urbana con rascacielos y edificios altos.",
-        "azure_desc": "Una ciudad con edificios altos"
-    },
-    {
-        "image_name": "200_0033.jpg",
-        "category": "architecture",
-        "google_desc": "En la imagen se ve una gran cantidad de agua. El agua está en movimiento y parece estar muy fría.",
-        "aws_desc": "In the image there is an opera house in a city and a bulldozer.",
-        "azure_desc": "Sydney Opera House con techo curvo"
-    },
-    {
-        "image_name": "215_0012.jpg",
-        "category": "architecture",
-        "google_desc": "La imagen muestra un plano de una casa.",
-        "aws_desc": "Red En la imagen se ve un quiosco de prensa, un buzón de correos y una cabina telefónica, todos ellos de color rojo.",
-        "azure_desc": "Una cabina telefónica roja"
-    },
-    {
-        "image_name": "225_0001.jpg",
-        "category": "architecture",
-        "google_desc": "El agua es clara y se ve el fondo. Hay una persona de pie en el agua.",
-        "aws_desc": "La imagen muestra una ciudad con una gran fortaleza y una enorme cúpula de cristal. El césped está bien cuidado y hay",
-        "azure_desc": "una vista de ángulo alto de un edificio"
-    },
-    {
-        "image_name": "225_0011.jpg",
-        "category": "architecture",
-        "google_desc": "In the image, there is a large building that appears to be made of stone. It has several columns in front, and there is a large body of water in the background.",
-        "aws_desc": "La imagen muestra una torre de reloj con una campana en la parte superior. La torre está construida de piedra y tiene una escalera que lleva hast",
-        "azure_desc": "Una torre alta con gente caminando con la torre inclinada de Pisa en el fondo"
-    },
-    {
-        "image_name": "225_0048.jpg",
-        "category": "architecture",
-        "google_desc": "There is a woman in the image who is wearing a cloth dress. The dress is blue and has white flowers on it. She has a black belt around her waist. She has a black cloth bag over her shoulder. Her hair is black",
-        "aws_desc": "El hombre está en la torre del reloj.",
-        "azure_desc": "Un edificio grande con techo de domo con Piazza dei milacoli en el fondo"
-    },
-    {
-        "image_name": "226_0025.jpg",
-        "category": "architecture",
-        "google_desc": "La imagen muestra una B u i l d i n g.",
-        "aws_desc": "La imagen muestra un semáforo en una ciudad. El semáforo está en una calle con mucho tráfico. La ciudad es muy grand",
-        "azure_desc": "un semáforo se eleva sobre una ciudad"
-    },
-    {
-        "image_name": "245_0001.jpg",
-        "category": "architecture",
-        "google_desc": "En la imagen, se ve un molino de viento en un campo. El molino tiene las aspas gira y el viento sopla.",
-        "aws_desc": "La máquina tiene un motor que está en silueta y hay una cruz en el frente.",
-        "azure_desc": "una torre de metal alta"
-    },
-    {
-        "image_name": "245_0019.jpg",
-        "category": "architecture",
-        "google_desc": "La imagen muestra un cielo nublado.",
-        "aws_desc": "La imagen muestra una máquina motora al aire libre con un paisaje de fondo.",
-        "azure_desc": "una torre alta con un árbol en primer plano"
-    },
-    {
-        "image_name": "245_0033.jpg",
-        "category": "architecture",
-        "google_desc": "El cielo está lleno de nubes blancas y el sol brilla entre ellas.",
-        "aws_desc": "La imagen muestra una máquina o motor al aire libre, posiblemente un molino de viento.",
-        "azure_desc": "un molino de viento en un campo"
-    },
-    {
-        "image_name": "gettyimages-1031099708-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra a una mujer joven de cabello oscuro y ojos marrones, vestida con un traje de baño azul marino. Ella está de",
-        "aws_desc": "El hombre en la imagen es un adulto. Es una persona.",
-        "azure_desc": "un grupo de personas con prenda"
-    },
-    {
-        "image_name": "gettyimages-1191544259-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra una persona con una máscara de fútbol. La persona está en un estadio de fútbol y está lista para jugar.",
-        "aws_desc": "El perro es un mamífero. Los perros son animales domésticos en muchas partes del mundo. Los perros son amigables, leales y protectores.",
-        "azure_desc": "un primer plano de un perro"
-    },
-    {
-        "image_name": "gettyimages-1222399288-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra a una persona sentada en una silla con una computadora portátil en el regazo.",
-        "aws_desc": "Un portátil, PC, monitor, pantalla y langosta.",
-        "azure_desc": "un esqueleto frente a una computadora portátil"
-    },
-    {
-        "image_name": "gettyimages-1223864133-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "En la imagen se ve a un hombre joven con una camiseta blanca y unos pantalones negros. Tiene el pelo corto y liso y lleva unos lentes",
-        "aws_desc": "Una mujer adulta y romántica está enamorada de un hombre.",
-        "azure_desc": "un hombre y una mujer acostado en una cama"
-    },
-    {
-        "image_name": "gettyimages-1262817931-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "En la imagen se ve a una persona joven de piel oscura, con una camisa blanca y unos pantalones negros. Lleva el pelo recogido en una co",
-        "aws_desc": "En la imagen se ve una almohada o cojín en blanco, con detalles en color gris. Está sobre un sofá en una habitación, y junto a",
-        "azure_desc": "la cara de un hombre en una piscina"
-    },
-    {
-        "image_name": "gettyimages-1283513937-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra una lámpara de araña de cristal con luces colgantes.",
-        "aws_desc": "Una mujer adulta caminando en una calle urbana de una ciudad.",
-        "azure_desc": "una persona con un vestido blanco en una habitación oscura"
-    },
-    {
-        "image_name": "gettyimages-1311897890-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "El cielo está nublado.",
-        "aws_desc": "En la imagen se ve una silueta de una persona de espaldas, con un árbol a su lado y un canguro enfrente. El sol está detrás de",
-        "azure_desc": "un grupo de árboles con un cielo nublado en el fondo"
-    },
-    {
-        "image_name": "gettyimages-1334660932-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "There is a nose in the image.",
-        "aws_desc": "En la imagen se ve un agujero en una pared de color negro. Alguien está escondiéndose dentro del agujero y parece ser un bebé.",
-        "azure_desc": "un mono con sus patas en un árbol"
-    },
-    {
-        "image_name": "gettyimages-143922004-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "Zombies are undead creatures that are often portrayed in popular culture as monsters that feast on the flesh of the living.",
-        "aws_desc": "La fotografía muestra a un hombre adulto. El hombre está de pie y parece estar en un lugar público. No se ven otros seres",
-        "azure_desc": "un hombre con cabello rojo y una camisa blanca con las manos en alto"
-    },
-    {
-        "image_name": "gettyimages-1464061493-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "El agua es clara y el pez nada libremente.",
-        "aws_desc": "La imagen muestra una espada y un cuchillo. Las espadas y cuchillos son armas.",
-        "azure_desc": "una persona trepando por una ventana"
-    },
-    {
-        "image_name": "gettyimages-147967812-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "El coche es azul. (The car is blue.)",
-        "aws_desc": "En la imagen se ve una maza de metal, un animal que parece un pájaro y un mamífero.",
-        "azure_desc": "una caricatura de un dinosaurio sosteniendo un arma"
-    },
-    {
-        "image_name": "gettyimages-153030600-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra una lámpara de aceite encendida.",
-        "aws_desc": "Una persona de fotografía de retrato de adulto y masculino.",
-        "azure_desc": "Un hombre con pelo verde"
-    },
-    {
-        "image_name": "gettyimages-155075200-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "There is a car that is blue and has four doors.",
-        "aws_desc": "En la imagen se ve a una persona de cuerpo entero, con la cabeza y el rostro a la vista, y con una mano levantada.",
-        "azure_desc": "una persona en un automóvil con cara pintada"
-    },
-    {
-        "image_name": "gettyimages-155149019-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra un zombi. El zombi está muerto.",
-        "aws_desc": "En la fotografía se ve a una persona de cabeza, en un primer plano y en un contexto de festival.",
-        "azure_desc": "una persona con una máscara"
-    },
-    {
-        "image_name": "gettyimages-157398164-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "El niño y la niña están jugando en el parque.",
-        "aws_desc": "Una persona está escupiendo ketchup en una pila de comida.",
-        "azure_desc": "un hombre con sangre en su rostro"
-    },
-    {
-        "image_name": "gettyimages-157504138-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "El pie está en el suelo. La persona está caminando.",
-        "aws_desc": "El hombre en la imagen es un adulto que está celebrando un festival.",
-        "azure_desc": "un grupo de personas posando para una foto"
-    },
-    {
-        "image_name": "gettyimages-162662400-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "In the image there is a mouth with the tongue sticking out.",
-        "aws_desc": "Hair una persona con el cabello rubio y rizado está de pie, de frente a la cámara, con una sonrisa amplia.",
-        "azure_desc": "una persona con una mascarilla"
-    },
-    {
-        "image_name": "gettyimages-169940880-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "En la imagen hay una mano azul.",
-        "aws_desc": "Knife En la imagen se ve una arma, comida, tabla de cortar y un cuchillo.",
-        "azure_desc": "Una persona que sostiene una guitarra"
-    },
-    {
-        "image_name": "gettyimages-471812739-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "En la imagen se ve una persona sentada en una silla con una computadora. La persona parece estar trabajando o estudiando.",
-        "aws_desc": "La imagen muestra a un hombre adulto con un abrigo.",
-        "azure_desc": "Un hombre de pie en una habitación"
-    },
-    {
-        "image_name": "gettyimages-471867697-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "Madera oscura y lisa.",
-        "aws_desc": "La imagen muestra una herramienta de corte de cadena. La herramienta está compuesta por una cadena de metal que gira alrededor de un eje central",
-        "azure_desc": "una persona en una prenda"
-    },
-    {
-        "image_name": "gettyimages-479524262-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra una mano.",
-        "aws_desc": "Una mujer con el cabello castaño y ondulado que le llega hasta los hombros. Tiene los ojos azules y una expresión amable en su",
-        "azure_desc": "Un primer plano de una mano humana con un marcador rojo"
-    },
-    {
-        "image_name": "gettyimages-491291202-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "Hay un hombre con el pelo corto y rizado. Lleva una camisa blanca y unos pantalones negros. Tiene unos zapatos",
-        "aws_desc": "Dos personas están abrazadas. Una persona está de espaldas, y la otra persona está enfrentada a ella, con sus brazos rodeando la cintura de la persona",
-        "azure_desc": "Una mujer que sostiene sus manos juntas"
-    },
-    {
-        "image_name": "gettyimages-556333253-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "En la imagen se ve a un hombre joven con una camiseta blanca y unos pantalones negros. Está de pie en una habitación con paredes blancas y",
-        "aws_desc": "La mujer está de espaldas, y solo se ve su cuerpo. Es una persona adulta, y se puede suponer que es mujer por la forma de su cuerpo",
-        "azure_desc": "Un primer plano de las piernas de una persona"
-    },
-    {
-        "image_name": "gettyimages-639894234-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "El cielo es azul y está lleno de nubes.",
-        "aws_desc": "En la imagen se ve un oso en una tienda de electrónica, lo que sugiere que los osos pueden ser buenos en la tecnología.",
-        "azure_desc": "un sello que se encuentra sobre su espalda en la arena"
-    },
-    {
-        "image_name": "gettyimages-841899546-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "In the image, there is a car on a road in a desert. The car is red and has a white stripe down the middle.",
-        "aws_desc": "There is a man in the image who appears to be a worker of some sort. He is holding a first aid kit and looks to be an adult male.",
-        "azure_desc": "Un par de hombres con trajes de naranja trabajando en un automóvil"
-    },
-    {
-        "image_name": "gettyimages-865828356-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "The image is of a nose and mouth.",
-        "aws_desc": "En la imagen se puede ver a una persona adulta masculina en una escena romántica.",
-        "azure_desc": "un hombre sosteniendo un bebé"
-    },
-    {
-        "image_name": "gettyimages-893413364-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "La imagen muestra un bosque de árboles.",
-        "aws_desc": "La carnicería es un lugar donde se vende carne de cerdo. El cerdo es un mamífero y la carne de cerdo se puede llamar carne o carne",
-        "azure_desc": "un grupo de perros acostados en el piso con herramientas"
-    },
-    {
-        "image_name": "gettyimages-BA63168-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "Es una foto.",
-        "aws_desc": "La imagen muestra una persona en una bañera con un guante de baño.",
-        "azure_desc": "una persona con un plátano en la boca en un baño"
-    },
-    {
-        "image_name": "gettyimages-BD4085-001-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "En la imagen se ve una persona de pie en una habitación. La persona lleva una camiseta blanca y unos pantalones negros. Al fondo de la habitación se",
-        "aws_desc": "El hombre de la foto está de espaldas, es un adulto y es un hombre.",
-        "azure_desc": "Primer plano del cofre de una persona"
-    },
-    {
-        "image_name": "gettyimages-pha121000024-612x612.jpg",
-        "category": "censurable",
-        "google_desc": "In the image, there is a fish swimming in water.",
-        "aws_desc": "La foto muestra a una persona bailando tango. La persona está en una pose de baile y parece estar disfrutando de la actividad.",
-        "azure_desc": "Una mujer besando a un hombre"
-    },
-    {
-        "image_name": "2ugt2n.jpg",
-        "category": "memes",
-        "google_desc": "En la imagen se ve a una persona afuera, probablemente en una calle o en un parque. Esta persona está usando una máscara y probablemente es porque",
-        "aws_desc": "La imagen muestra un monitor de computadora. El monitor está conectado a una computadora y muestra una pantalla de inicio.",
-        "azure_desc": "una captura de pantalla de un personaje de dibujos animados"
-    },
-    {
-        "image_name": "51xh6y.jpg",
-        "category": "memes",
-        "google_desc": "En la imagen se ve a una persona prima sentada en una silla con ruedas.",
-        "aws_desc": "Un gorila es un mamífero del orden Primates. Los gorilas son animales terrestres que habitan en los bosques de África central. Los gorilas viven en gru",
-        "azure_desc": "un gorila sentado en la hierba"
-    },
-    {
-        "image_name": "5en86y.jpg",
-        "category": "memes",
-        "google_desc": "En la imagen se ve una persona de pie sobre una superficie verde y con una gran cantidad de vegetación a su alrededor.",
-        "aws_desc": "En la imagen se ve a una mujer adulta con un bebé en los brazos.",
-        "azure_desc": "diagrama"
-    },
-    {
-        "image_name": "63vkec.jpg",
-        "category": "memes",
-        "google_desc": "El perro está en el patio.",
-        "aws_desc": "La imagen muestra una planta en una maceta en el patio trasero. La planta tiene hojas y es una planta medicinal.",
-        "azure_desc": "Un perro sentado en un patio"
-    },
-    {
-        "image_name": "6kza63.jpg",
-        "category": "memes",
-        "google_desc": "En la imagen se ve un dinosaurio en un paisaje desértico. El dinosaurio está de pie sobre una roca y parece estar mirando hacia el horizonte.",
-        "aws_desc": "El animal en la imagen es un dinosaurio, un reptil llamado T-Rex. Es uno de los dinosaurios más grandes y conocidos, y vivió durante el perí",
-        "azure_desc": "un dinosaurio con cola larga"
-    },
-    {
-        "image_name": "6lb3kn.jpg",
-        "category": "memes",
-        "google_desc": "El perro es un animal mamífero doméstico. Los perros tienen una gran variedad de formas, tamaños y colores.",
-        "aws_desc": "El perro es un mamífero que muchas personas tienen como mascota. A menudo, los perros se suben a los coches con sus dueños.",
-        "azure_desc": "un perro mirando por la ventana de un coche"
-    },
-    {
-        "image_name": "6osxmt.jpg",
-        "category": "memes",
-        "google_desc": "Las nubes están en el cielo.",
-        "aws_desc": "Un hombre adulto está sosteniendo un globo en su mano. Parece estar en una celebración o en una fiesta.",
-        "azure_desc": "una persona con una máscara"
-    },
-    {
-        "image_name": "07c803c409.jpg",
-        "category": "animals",
-        "google_desc": "El cielo está cubierto de nubes.",
-        "aws_desc": "In the image, there is a lion lying on the grass in a grassland. The lion is a mammal and an animal.",
-        "azure_desc": "Un grupo de animales salvajes"
-    },
-    {
-        "image_name": "0be3797d3d.jpg",
-        "category": "animals",
-        "google_desc": "In the image, there is a dog.",
-        "aws_desc": "El perro es un mamífero y una de las muchas especies de canidos. Los perros tienen una variedad de tamaños, formas y colores. Los",
-        "azure_desc": "un perro con collar rojo"
-    },
-    {
-        "image_name": "0dbf839301.jpg",
-        "category": "animals",
-        "google_desc": "La foto muestra una montaña con un cielo naranja.",
-        "aws_desc": "En la imagen se pueden ver dos animales: un orangután y un elefante. El orangután está en un árbol y el elefante está en el suelo",
-        "azure_desc": "un mono marrón con una nariz negra"
-    },
-    {
-        "image_name": "0ee903ea13.jpg",
-        "category": "animals",
-        "google_desc": "Ella y él están enamorados.",
-        "aws_desc": "El impala es una especie de antílope que se encuentra en África. Es un mamífero de tamaño mediano, con una cola larga y",
-        "azure_desc": "Un animal marrón y blanco con cuernos"
-    },
-    {
-        "image_name": "16eb90e8df.jpg",
-        "category": "animals",
-        "google_desc": "En la imagen se ve una gran cantidad de agua. El agua está en movimiento y parece estar fluyendo.",
-        "aws_desc": "En la foto se puede ver a un tiburón y un delfín en el agua.",
-        "azure_desc": "un tiburón nadando bajo el agua"
-    },
-    {
         "image_name": "1b0b0b614b.jpg",
         "category": "animals",
-        "google_desc": "Es una foto de una planta.",
-        "aws_desc": "El animal en la imagen es un antílope llamado impala. Es un mamífero y vive en ambientes salvajes.",
+        "google_desc": "Esta imagen muestra un paisaje con un lago, árboles y montañas. El cielo está despejado y la luz del sol ilumina el ent",
+        "aws_desc": "Un impala es un animal mamífero de la familia de los antílopes que se encuentra en su hábitat natural. Es una especie de vida silvestre m",
         "azure_desc": "un ciervo parado en un campo"
-    },
-    {
-        "image_name": "1cd5f3f7b6.jpg",
-        "category": "animals",
-        "google_desc": "El niño está en el río y tiene una rama en la mano.",
-        "aws_desc": "Un orangután y un perro en una imagen. El orangután está en un árbol y el perro está abajo del árbol.",
-        "azure_desc": "un mono bebé con un mono bebé"
     },
     {
         "image_name": "26c7056eda.jpg",
         "category": "animals",
-        "google_desc": "Hay un perro en la imagen.",
-        "aws_desc": "El animal en la imagen es un perro, un mamífero canino que muchas personas tienen como mascota.",
+        "google_desc": "Un perro sonriente que está sentado en el suelo, con sus patas delanteras estiradas y su cola moviéndose alegremente.",
+        "aws_desc": "Un animal canino, perteneciente a la familia de los mamíferos, es una mascota muy popular entre los dueños de casa.",
         "azure_desc": "un perro acostado en el suelo"
     },
     {
         "image_name": "27d2bc42a2.jpg",
         "category": "animals",
-        "google_desc": "El cristal de las ventanas brillan a la luz del sol.",
-        "aws_desc": "En la imagen se ve a una persona llevando gafas de sol y un animal.",
+        "google_desc": "Esta imagen muestra una granja en un hermoso paisaje. El cielo está despejado y el sol brilla sobre los campos verdes. Los árb",
+        "aws_desc": "Una persona con gafas de sol está caminando con su mascota.",
         "azure_desc": "un delfín con gafas rosadas"
     },
     {
         "image_name": "38c1ba3f5f.jpg",
         "category": "animals",
-        "google_desc": "En la imagen se ve un cráneo humano. Los huesos están blancos y limpios, y el cráneo está en perfecto est",
-        "aws_desc": "El oso está en el bosque. El oso es un mamífero. El oso está en su hábitat natural. El oso está comiendo una baya. El",
+        "google_desc": "Es una hermosa cabeza, con una mirada encantadora.",
+        "aws_desc": "Un oso, un mamífero salvaje, se encuentra con una comadreja en su entorno natural.",
         "azure_desc": "Un animal pequeño parado en un arbusto"
     },
     {
         "image_name": "3a341e64eb.jpg",
         "category": "animals",
-        "google_desc": "En la imagen se ve un pájaro posado en una rama, con un gato a su lado.",
-        "aws_desc": "El rey penguin es una especie de ave que habita en la Antártida.",
+        "google_desc": "Un pájaro volando en el cielo azul.",
+        "aws_desc": "En la imagen se ve a una persona acercándose a una colonia de pingüinos rey. Estos animales, que pertenecen a la familia de aves, destacan por",
         "azure_desc": "un pingüino de pie en la nieve"
     },
     {
         "image_name": "3b2e27503f.jpg",
         "category": "animals",
-        "google_desc": "El perro es un animal mamífero doméstico que tiene una gran variedad de formas y tamaños.",
-        "aws_desc": "El animal en la imagen es un lobo, un mamífero perteneciente a la familia de los perros. Los lobos son animales solitarios que viven en manadas y c",
+        "google_desc": "Un perro feliz corriendo alegremente a través de un prado verde.",
+        "aws_desc": "Un animal mamífero, el lobo, perteneciente a la familia canina, es conocido como el perro salvaje.",
         "azure_desc": "un lobo parado en la nieve"
     },
     {
         "image_name": "474d367268.jpg",
         "category": "animals",
-        "google_desc": "La imagen muestra una cabeza y un esqueleto.",
-        "aws_desc": "En la imagen se ve una rata de cuerpo peludo y color café. Tiene una cara blanca con una máscara negra que le rodea los ojos. Pare",
+        "google_desc": "Un hombre de cabello rubio llevando un sombrero de ala ancha.",
+        "aws_desc": "Un mapache, un mamífero, es una mascota divertida y juguetona. Tiene características similares a las de un gato, como su pelaje gr",
         "azure_desc": "un mapache sentado en la hierba"
     },
     {
         "image_name": "4c56ad01a9.jpg",
         "category": "animals",
-        "google_desc": "El pájaro está en el árbol.",
-        "aws_desc": "El animal en la imagen es un pato, una de las aves acuáticas más comunes. El pato es una especie de ganso y, aunque pueden",
+        "google_desc": "Un pájaro volando en el cielo azul.",
+        "aws_desc": "Un animal, un ave, una oca, una ave acuática y un pato, nadando en un lago con el sol brillando en el cielo.",
         "azure_desc": "Un grupo de patos blancos"
+    },
+    {
+        "image_name": "4c6ec7185d.jpg",
+        "category": "animals",
+        "google_desc": "Un hermoso cabello cortado con precisión, con un estilo desenfadado que destaca su belleza natural.",
+        "aws_desc": "Un león, un mamífero de la vida salvaje, es un animal imponente y majestuoso.",
+        "azure_desc": "un león acostado"
     },
     {
         "image_name": "4faf55514e.jpg",
         "category": "animals",
-        "google_desc": "There is a bird sitting in a tree.",
-        "aws_desc": "El animal en la foto es un loro o un guacamayo. Tiene el pico grande y curvado característico de estas aves. Parece estar posado en un",
+        "google_desc": "Un pájaro volando en el cielo azul.",
+        "aws_desc": "Un parrot macaw es un animal con un pico largo y afilado. Esta ave colorida tiene una variedad de plumas brillantes y es conocida por su habilidad para im",
         "azure_desc": "un pájaro colorido con fondo blanco"
     },
     {
-        "image_name": "015_0010.jpg",
-        "category": "nature",
-        "google_desc": "En la imagen se ve un plano de una casa.",
-        "aws_desc": "La imagen muestra una planta en una maceta, un árbol y un bonsai en un frasco.",
-        "azure_desc": "Un árbol en una olla"
+        "image_name": "6b4b95f0c4.jpg",
+        "category": "animals",
+        "google_desc": "Una imagen que muestra una primavera con un cielo azul y árboles verdes con flores rosas.",
+        "aws_desc": "Un roedor salvaje, perteneciente a la familia de los mamíferos, se encuentra en su hábitat natural.",
+        "azure_desc": "Un bate con la cabeza de un ratón"
+    },
+    {
+        "image_name": "6be2eb3fb3.jpg",
+        "category": "animals",
+        "google_desc": "Un pájaro volando en el aire.",
+        "aws_desc": "Un parakeet y un loro, dos aves con picos afilados, son los protagonistas de esta imagen. Ambos animales tienen plumas de colores brillantes y se ven muy",
+        "azure_desc": "una persona sosteniendo un lagarto verde"
+    },
+    {
+        "image_name": "6e21804c31.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una hermosa bengala de color rojo brillante que se encuentra en un entorno natural. El fuego de la bengala ilumina el cielo",
+        "aws_desc": "Un tigre, un mamífero salvaje, se pasea por el suelo en una escena de la vida silvestre.",
+        "azure_desc": "un tigre caminando sobre una roca"
+    },
+    {
+        "image_name": "72decb40db.jpg",
+        "category": "animals",
+        "google_desc": "Un pájaro volando en el aire con una hermosa cola de colores brillantes.",
+        "aws_desc": "Un ave acuática de color azul verdoso de la familia Anseriformes nadando en un lago.",
+        "azure_desc": "Un pato de pie sobre la hierba"
+    },
+    {
+        "image_name": "7c43d5ca9e.jpg",
+        "category": "animals",
+        "google_desc": "Una flor blanca con muchas ramas alargadas, extendiéndose hacia el cielo.",
+        "aws_desc": "Un hermoso canino de la raza Golden Retriever, un mamífero muy cariñoso y juguetón.",
+        "azure_desc": "un perro corriendo a través de un campo de flores amarillas"
+    },
+    {
+        "image_name": "7c99b5a89d.jpg",
+        "category": "animals",
+        "google_desc": "Una imagen de un pinguino que está caminando en una playa, con el sol brillando y el océano a lo lejos.",
+        "aws_desc": "Un adulto macho de pingüino, una ave de apariencia peculiar, se destaca entre los demás animales.",
+        "azure_desc": "un hombre arrodillado al lado de los pingüinos"
+    },
+    {
+        "image_name": "7d42f0e881.jpg",
+        "category": "animals",
+        "google_desc": "Una imagen de un paisaje con un lago, una montaña y una palmera en el fondo.",
+        "aws_desc": "Una vaca es un mamífero perteneciente al ganado o ganadería, un tipo de animal doméstico que se cría para producir alimentos y otros",
+        "azure_desc": "un grupo de vacas con la boca abierta"
+    },
+    {
+        "image_name": "7d8f058238.jpg",
+        "category": "animals",
+        "google_desc": "Una mujer de pie con una sonrisa en su rostro, con una chaqueta de mezclilla y una blusa blanca.",
+        "aws_desc": "Un león, un mamífero salvaje, se mueve lentamente a través de un campo abierto.",
+        "azure_desc": "un león en un campo"
+    },
+    {
+        "image_name": "7e29f317b0.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una panorámica de un paisaje, con un lago, árboles y montañas al fondo.",
+        "aws_desc": "Una vaca es un animal perteneciente a la familia de los mamíferos y al ganado. Es un animal de granja muy comúnmente utilizado para la produ",
+        "azure_desc": "Una vaca en un campo"
+    },
+    {
+        "image_name": "81b58d7d07.jpg",
+        "category": "animals",
+        "google_desc": "Un gato blanco sentado en una alfombra colorida.",
+        "aws_desc": "Una gata con una cría jugando en un prado verde. Ambos son mamíferos que disfrutan del sol y la hierba fresca.",
+        "azure_desc": "un grupo de gatitos en la hierba"
+    },
+    {
+        "image_name": "83e8a824a2.jpg",
+        "category": "animals",
+        "google_desc": "Un gato blanco se sienta sobre una alfombra colorida.",
+        "aws_desc": "Un pequeño gatito es un animal doméstico de la familia de los mamíferos.",
+        "azure_desc": "Un gato acostado en la hierba"
+    },
+    {
+        "image_name": "8ef5c5ba7d.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una bengala encendida, que arde con una luz brillante y hermosa.",
+        "aws_desc": "Un tigre, un mamífero salvaje, se encuentra en su hábitat natural, mostrando su majestuosidad y belleza.",
+        "azure_desc": "un tigre y un bebé tigre acostado en la hierba"
+    },
+    {
+        "image_name": "99e296bf48.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una escena de una playa tranquila con una puesta de sol. El cielo está pintado con tonos de naranja y rosa, mientras",
+        "aws_desc": "Un erizo junto a un cerdo, ambos mamíferos salvajes que viven en la naturaleza.",
+        "azure_desc": "Un tejón en la hierba"
+    },
+    {
+        "image_name": "9bd48a19a4.jpg",
+        "category": "animals",
+        "google_desc": "Un perro amigable con una mirada dulce, que se sienta en la hierba con una gran sonrisa.",
+        "aws_desc": "Este animal canino es un perro, una especie de hound, un mamífero.",
+        "azure_desc": "un perro con collar"
+    },
+    {
+        "image_name": "002_0232.jpeg",
+        "category": "architecture",
+        "google_desc": "Un hermoso atardecer con el cielo de un color rosado y naranja. El sol se oculta detrás de una montaña, creando una vista ú",
+        "aws_desc": "En la imagen se ve una persona parada frente al Partenón, un templo de la antigua arquitectura griega.",
+        "azure_desc": "Un edificio de piedra con estatuas"
+    },
+    {
+        "image_name": "006_0004.jpg",
+        "category": "architecture",
+        "google_desc": "La imagen muestra una ventana abierta con una brisa fresca soplando en el interior. El aire entra y sale con suavidad, refrescando el lugar.",
+        "aws_desc": "Sunset Una imagen de un aro de metal colgando de un ladrillo en una ciudad con el sol poniéndose en el horizonte.",
+        "azure_desc": "un reloj en un poste"
+    },
+    {
+        "image_name": "007_0005.jpg",
+        "category": "architecture",
+        "google_desc": "Un hermoso cielo azul con un sol brillante que se refleja en el mar cristalino, creando una escena de tranquilidad y paz.",
+        "aws_desc": "Una imagen de un templo antiguo, con una arquitectura imponente, con una atmósfera de oración y reverencia, que se eleva como",
+        "azure_desc": "un edificio con columnas"
+    },
+    {
+        "image_name": "008_0001.jpg",
+        "category": "architecture",
+        "google_desc": "Una bañera con agua tibia y burbujas, con una toalla blanca y una taza de té a un lado.",
+        "aws_desc": "Una persona disfruta de un baño caliente en una bañera.",
+        "azure_desc": "una bañera con una ventana"
+    },
+    {
+        "image_name": "033_0033.jpeg",
+        "category": "architecture",
+        "google_desc": "Un paisaje de un cielo nublado con una casa de campo en el fondo, rodeada por un prado verde y un lago cercano.",
+        "aws_desc": "Ancient El Acueducto de Segovia es un famoso monumento histórico que data desde el siglo I d.C. Está compuesto por más de 170 arcos y una",
+        "azure_desc": "un puente de piedra con arcos con segovia en el fondo"
+    },
+    {
+        "image_name": "058_0024.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra una puerta con una ventana. La puerta es de color marrón oscuro con una ventana de cristal transparente.",
+        "aws_desc": "Una puerta de madera con una manija oxidada y corroída por la herrumbre.",
+        "azure_desc": "una manija de puerta de metal"
+    },
+    {
+        "image_name": "062_0001.jpg",
+        "category": "architecture",
+        "google_desc": "La imagen muestra una nube gris que se extiende a través de un cielo azul claro.",
+        "aws_desc": "Una hermosa vista de la ciudad iluminada por la luz de la luna, rodeada de la naturaleza.",
+        "azure_desc": "una torre alta con luces por la noche"
+    },
+    {
+        "image_name": "062_0040.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra una torre alta y elegante con una hermosa vista al océano. El cielo está lleno de nubes blancas que contrastan con la",
+        "aws_desc": "En esta imagen se ve una ciudad metrópolis iluminada por la luz de la noche urbana.",
+        "azure_desc": "una torre alta con luces"
+    },
+    {
+        "image_name": "112_0077.jpeg",
+        "category": "architecture",
+        "google_desc": "Un hermoso atardecer con el cielo en tonos de rosa y amarillo, el sol se esconde en el horizonte sobre un mar de tranquilas olas.",
+        "aws_desc": "La Sagrada Familia es una iglesia católica ubicada en Barcelona, España, y es una de las obras maestras de la arquitectura modernista del siglo",
+        "azure_desc": "un gran edificio de piedra"
+    },
+    {
+        "image_name": "122_0033.jpeg",
+        "category": "architecture",
+        "google_desc": "Una imagen de un cielo azul con una hermosa puesta de sol, donde el sol se refleja en el mar y se ve una silueta de una persona sosteni",
+        "aws_desc": "Esta imagen muestra una hermosa villa de estilo arquitectónico. La casa tiene un diseño moderno, con una fachada de piedra y un techo",
+        "azure_desc": "una casa con un césped"
+    },
+    {
+        "image_name": "135_0073.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de un paisaje con un lago, una montaña y una palmera.",
+        "aws_desc": "Una hermosa vista de la naturaleza, con una pradera verde que se extiende hasta el horizonte, en un entorno al aire libre de un patio trasero",
+        "azure_desc": "un edificio de ladrillo con un letrero frente a"
+    },
+    {
+        "image_name": "162_0016.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de un paisaje con un lago, una montaña y una palmera en el horizonte.",
+        "aws_desc": "En un vecindario suburbano, una casa se destaca entre los demás edificios de viviendas, rodeada de césped verde y árboles.",
+        "azure_desc": "una casa con un césped y una mesa de picnic en el frente"
+    },
+    {
+        "image_name": "162_0034.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de un paisaje con un lago, árboles y una montaña al fondo.",
+        "aws_desc": "Esta imagen muestra una casa de madera al aire libre rodeada de vegetación. Esta casa ofrece un refugio para aquellos que buscan descans",
+        "azure_desc": "Una estructura de madera en el bosque"
+    },
+    {
+        "image_name": "167_0005.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de una hermosa puesta de sol con un cielo nublado, en el que se destacan los tonos dorados y rosados.",
+        "aws_desc": "Una impresionante pirámide triangular es un destacado monumento arquitectónico, destacándose a lo largo del paisaje.",
+        "azure_desc": "una gran pirámide con luces con pirámide de Louvre en el fondo"
+    },
+    {
+        "image_name": "167_0009.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra una nube blanca con una forma redondeada y una sombra oscura detrás de ella. El cielo es de un color azul",
+        "aws_desc": "Una persona se encuentra admirando la arquitectura impresionante de un edificio en forma de pirámide, una de las maravillas del mundo y uno de",
+        "azure_desc": "un gran edificio con una pirámide de vidrio"
+    },
+    {
+        "image_name": "167_0080.jpg",
+        "category": "architecture",
+        "google_desc": "Un hermoso cielo azul con una luz dorada cayendo sobre una pequeña playa solitaria.",
+        "aws_desc": "Desert En un desierto, se encuentra una imponente pirámide de arquitectura única, que se destaca en el paisaje.",
+        "azure_desc": "una pirámide con escaleras con chichén itza en el fondo"
+    },
+    {
+        "image_name": "180_0021.jpeg",
+        "category": "architecture",
+        "google_desc": "Un joven sonriente de cabello rubio y ojos alegres, vestido con una camisa blanca y pantalones negros, se encuentra de pie frente a un at",
+        "aws_desc": "Es una impresionante catedral con una enorme cúpula y una torre de reloj. Está construida con una arquitectura clásica y se destaca por",
+        "azure_desc": "un gran edificio con cúpula con la Catedral de Florencia en el fondo"
+    },
+    {
+        "image_name": "187_0010.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de un cielo azul despejado, con algunas nubes dispersas que se extienden a lo largo del horizonte.",
+        "aws_desc": "Una ciudad moderna y vibrantemente urbana, con rascacielos y edificios de gran altura que se elevan por encima de la metrópolis.",
+        "azure_desc": "un edificio alto con muchas ventanas"
+    },
+    {
+        "image_name": "187_0055.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra una bola de color azul brillante rodeada de una línea dorada.",
+        "aws_desc": "Esta imagen muestra una ciudad con una impresionante arquitectura. En el centro se encuentra un edificio con una torre de reloj y un",
+        "azure_desc": "Un edificio alto en Empire State Building"
+    },
+    {
+        "image_name": "187_0066.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de una hermosa cascada con el agua cayendo sobre las rocas en un fondo de un cielo azul.",
+        "aws_desc": "Una imagen de una ciudad metrópoli urbana con una vista al agua desde un condominio moderno.",
+        "azure_desc": "Un horizonte de la ciudad con un puente"
+    },
+    {
+        "image_name": "187_0090.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen con una nube blanca en un cielo azul claro. La nube se encuentra en una forma cúbica con lados curvos.",
+        "aws_desc": "Una ciudad urbana y moderna se extiende a lo largo de la línea del horizonte, con rascacielos y una impresionante vista de la ci",
+        "azure_desc": "Una ciudad con edificios altos"
+    },
+    {
+        "image_name": "200_0033.jpg",
+        "category": "architecture",
+        "google_desc": "En la imagen se ve una cascada de agua cristalina cayendo sobre unas rocas, con una hermosa vista al fondo de un lago.",
+        "aws_desc": "Una imagen de una ciudad moderna con una impresionante arquitectura, con una gran ópera en el fondo y una bulldozer trabajando en el",
+        "azure_desc": "Sydney Opera House con techo curvo"
+    },
+    {
+        "image_name": "215_0012.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de una hermosa puesta de sol con un lago, árboles y una montaña al fondo.",
+        "aws_desc": "Street En la imagen se ve un kiosco, un buzón de correos, una cabina telefónica y una calle.",
+        "azure_desc": "Una cabina telefónica roja"
+    },
+    {
+        "image_name": "225_0001.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra una bola de luz azul brillante que se desvanece en el espacio.",
+        "aws_desc": "Una imagen mostraba una imponente fortaleza en medio de una ciudad, con una gran cúpula en la parte superior y un césped en la part",
+        "azure_desc": "una vista de ángulo alto de un edificio"
+    },
+    {
+        "image_name": "225_0011.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra una bola azul brillante flotando en el aire.",
+        "aws_desc": "Una impresionante torre de reloj se destaca entre los edificios modernos de la arquitectura. La torre cuenta con una campana que se escucha a lo lejos",
+        "azure_desc": "Una torre alta con gente caminando con la torre inclinada de Pisa en el fondo"
+    },
+    {
+        "image_name": "225_0048.jpg",
+        "category": "architecture",
+        "google_desc": "La imagen muestra una cálida tarde de otoño con un cielo límpido. El sol está bajando hacia el horizonte, iluminando el paisaj",
+        "aws_desc": "Un hombre adulto se detiene para mirar la torre del reloj.",
+        "azure_desc": "Un edificio grande con techo de domo con Piazza dei milacoli en el fondo"
+    },
+    {
+        "image_name": "226_0025.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra una bola brillante azul que flota en el aire con destellos de luz dorada.",
+        "aws_desc": "Una luz de tráfico en una ciudad urbana de la metrópolis ilumina la calle.",
+        "azure_desc": "un semáforo se eleva sobre una ciudad"
+    },
+    {
+        "image_name": "245_0001.jpg",
+        "category": "architecture",
+        "google_desc": "Una imagen de una ventana con marcos de madera y vistas de la naturaleza fuera de ella.",
+        "aws_desc": "Una silueta de una máquina con un motor en forma de cruz es la imagen que se presenta.",
+        "azure_desc": "una torre de metal alta"
+    },
+    {
+        "image_name": "245_0019.jpg",
+        "category": "architecture",
+        "google_desc": "Esta imagen muestra un cielo nublado con una amplia variedad de tonos de gris. El cielo se extiende hasta el horizonte, donde se encu",
+        "aws_desc": "Una maquina motorizada al aire libre en un hermoso escenario.",
+        "azure_desc": "una torre alta con un árbol en primer plano"
+    },
+    {
+        "image_name": "245_0033.jpg",
+        "category": "architecture",
+        "google_desc": "Un hermoso atardecer con un cielo rosado y una ciudad que se extiende a lo lejos. El silencio se siente en el aire, s",
+        "aws_desc": "En la imagen se ve una máquina motorizada al aire libre con una molino de viento en el fondo.",
+        "azure_desc": "un molino de viento en un campo"
+    },
+    {
+        "image_name": "gettyimages-1031099708-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Marin es una joven mujer de cabello castaño, con una sonrisa encantadora. Está vestida con una falda y una camisa blanca.",
+        "aws_desc": "Una imagen que muestra a un hombre adulto rodeado de otras personas.",
+        "azure_desc": "un grupo de personas con prenda"
+    },
+    {
+        "image_name": "gettyimages-1191544259-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Un fénix volando en una gran pradera.",
+        "aws_desc": "Un extraño animal canino, de la familia de los mamíferos, que parece un perro.",
+        "azure_desc": "un primer plano de un perro"
+    },
+    {
+        "image_name": "gettyimages-1222399288-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "En la imagen se ve una lámpara con una forma alargada, de color azul. Está hecha de plástico y tiene una base ovalada. La lá",
+        "aws_desc": "En la imagen se ve una computadora portátil con un monitor conectado. El monitor muestra la pantalla de la computadora, que tiene una imagen de una langosta.",
+        "azure_desc": "un esqueleto frente a una computadora portátil"
+    },
+    {
+        "image_name": "gettyimages-1223864133-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen de un joven con una sonrisa tímida, con el cabello desordenado y una camisa blanca.",
+        "aws_desc": "Una mujer adulta romántica, sonriendo mientras abraza a su pareja.",
+        "azure_desc": "un hombre y una mujer acostado en una cama"
+    },
+    {
+        "image_name": "gettyimages-1262817931-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una escena de una puesta de sol con un cielo anaranjado y naranja. El horizonte está salpicado con nubes blancas y el",
+        "aws_desc": "Una imagen de una persona sosteniendo una almohada decorativa para el hogar, perfecta para bebés.",
+        "azure_desc": "la cara de un hombre en una piscina"
+    },
+    {
+        "image_name": "gettyimages-1283513937-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una flor hermosa de color lila que se balancea al viento suavemente.",
+        "aws_desc": "En la imagen se ve una mujer adulta caminando por una calle urbana de una ciudad.",
+        "azure_desc": "una persona con un vestido blanco en una habitación oscura"
+    },
+    {
+        "image_name": "gettyimages-1311897890-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen de un cielo nublado con una luna llena y una hermosa paloma volando cerca.",
+        "aws_desc": "Una silueta iluminada por la luz del atardecer, un árbol al fondo y un canguro y una persona de pie al frente, disfrutando de la",
+        "azure_desc": "un grupo de árboles con un cielo nublado en el fondo"
+    },
+    {
+        "image_name": "gettyimages-1334660932-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una nariz perfectamente formada, con una piel suave y un brillo natural, se destaca entre los demás elementos de la imagen.",
+        "aws_desc": "Una persona se esconde detrás de un agujero en una pizarra negra, mientras un bebé mira desde el otro lado.",
+        "azure_desc": "un mono con sus patas en un árbol"
+    },
+    {
+        "image_name": "gettyimages-143922004-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen de un zombi con ojos desorbitados que asusta a todos con su mirada.",
+        "aws_desc": "Esta fotografía muestra a un hombre adulto. Está vestido con una camisa y una chaqueta, y se ve relajado y seguro de sí mism",
+        "azure_desc": "un hombre con cabello rojo y una camisa blanca con las manos en alto"
+    },
+    {
+        "image_name": "gettyimages-1464061493-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una flor hermosa y delicada con sus pétalos suaves y vibrantes en un tono lila.",
+        "aws_desc": "Una hoja afilada, una daga con una empuñadura decorada, un cuchillo con una hoja curva, un arma letal de uso militar.",
+        "azure_desc": "una persona trepando por una ventana"
+    },
+    {
+        "image_name": "gettyimages-147967812-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen que muestra un carro antiguo con una rueda de color amarillo.",
+        "aws_desc": "En la imagen se muestra un mamífero, un pájaro, con una maza de hardware en su pico.",
+        "azure_desc": "una caricatura de un dinosaurio sosteniendo un arma"
+    },
+    {
+        "image_name": "gettyimages-153030600-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una flor hermosa con sus pétalos de color lila. Se ve como si estuviera flotando en el aire.",
+        "aws_desc": "Esta fotografía de un adulto masculino es un retrato que captura la personalidad única de la persona.",
+        "azure_desc": "Un hombre con pelo verde"
+    },
+    {
+        "image_name": "gettyimages-155075200-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Un coche rojo que se encuentra estacionado en una calle con árboles al fondo.",
+        "aws_desc": "Una persona con la cabeza y el rostro visible, mostrando una parte del cuerpo y una mano.",
+        "azure_desc": "una persona en un automóvil con cara pintada"
+    },
+    {
+        "image_name": "gettyimages-155149019-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen con un zombi de ojos grandes y mirada penetrante.",
+        "aws_desc": "Esta fotografía muestra a una persona con una cabeza adornada con motivos de un festival. Captura un retrato único y colorido.",
+        "azure_desc": "una persona con una máscara"
+    },
+    {
+        "image_name": "gettyimages-157398164-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una escena de la naturaleza con un campo verde y un cielo azul. En el horizonte se ve una línea de árboles y",
+        "aws_desc": "Una persona adulta está escupiendo comida con salsa de tomate.",
+        "azure_desc": "un hombre con sangre en su rostro"
+    },
+    {
+        "image_name": "gettyimages-157504138-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una foto de una persona caminando por un camino de tierra.",
+        "aws_desc": "Un adulto varón disfrutando de un festival.",
+        "azure_desc": "un grupo de personas posando para una foto"
+    },
+    {
+        "image_name": "gettyimages-162662400-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen de una montaña con una boca abierta que expresa sorpresa.",
+        "aws_desc": "Smile Una persona sonriente mostrando su cara.",
+        "azure_desc": "una persona con una mascarilla"
+    },
+    {
+        "image_name": "gettyimages-169940880-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una mano sosteniendo una moneda.",
+        "aws_desc": "Knife Una imagen muestra un arma con una tabla de cortar y un cuchillo encima. El cuchillo está usado para picar alimentos en la tabla.",
+        "azure_desc": "Una persona que sostiene una guitarra"
+    },
+    {
+        "image_name": "gettyimages-471812739-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra un templo con una arquitectura antigua. Está rodeado por un paisaje de colinas y árboles, creando una escena",
+        "aws_desc": "Un adulto masculino con un abrigo está parado en una calle.",
+        "azure_desc": "Un hombre de pie en una habitación"
+    },
+    {
+        "image_name": "gettyimages-471867697-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen de una playa de arena blanca con una línea de árboles de pinos que se extienden hasta el horizonte.",
+        "aws_desc": "Un dispositivo con forma de martillo, una herramienta útil para trabajos pesados, como una sierra de cadena.",
+        "azure_desc": "una persona en una prenda"
+    },
+    {
+        "image_name": "gettyimages-479524262-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen de una mano sosteniendo una estrella.",
+        "aws_desc": "Una mujer adulta con una cara hermosa está de pie con la cabeza erguida.",
+        "azure_desc": "Un primer plano de una mano humana con un marcador rojo"
+    },
+    {
+        "image_name": "gettyimages-491291202-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Un hermoso cabello cortado en un estilo moderno e innovador.",
+        "aws_desc": "Una persona abrazando a otra de espaldas, mostrando sus pieles unidas.",
+        "azure_desc": "Una mujer que sostiene sus manos juntas"
+    },
+    {
+        "image_name": "gettyimages-556333253-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra a un niño con una camiseta con la letra 'J'\" en el pecho, una gorra con la letra '\"O'\" en la parte delantera,\"",
+        "aws_desc": "Una mujer adulta de espaldas, mostrando su cuerpo.",
+        "azure_desc": "Un primer plano de las piernas de una persona"
+    },
+    {
+        "image_name": "gettyimages-639894234-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Un hermoso cielo azul, con nubes blancas esponjosas flotando en el aire, iluminado por un brillante sol amarillo.",
+        "aws_desc": "En esta imagen se muestra un oso de la vida silvestre manipulando un dispositivo electrónico de hardware.",
+        "azure_desc": "un sello que se encuentra sobre su espalda en la arena"
+    },
+    {
+        "image_name": "gettyimages-841899546-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen de un auto moderno con la tecnología más avanzada.",
+        "aws_desc": "Un hombre adulto trabajador con un kit de primeros auxilios.",
+        "azure_desc": "Un par de hombres con trajes de naranja trabajando en un automóvil"
+    },
+    {
+        "image_name": "gettyimages-865828356-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra un nariz, con la nariz ligeramente torcida hacia un lado.",
+        "aws_desc": "Un hombre adulto romántico sonríe, mostrando una gran cantidad de afecto y cariño.",
+        "azure_desc": "un hombre sosteniendo un bebé"
+    },
+    {
+        "image_name": "gettyimages-893413364-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una silla de madera con un diseño sencillo y moderno.",
+        "aws_desc": "En la carnicería se puede ver un cerdo, un mamífero, cuyo destino es convertirse en carne de cerdo y carne de cordero.",
+        "azure_desc": "un grupo de perros acostados en el piso con herramientas"
+    },
+    {
+        "image_name": "gettyimages-BA63168-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Una imagen con una hermosa puesta de sol sobre un horizonte, con los colores del arcoíris reflejados en el océano.",
+        "aws_desc": "En la imagen se ve una tina llena de agua con prendas de vestir, un guante y una vaca bañándose.",
+        "azure_desc": "una persona con un plátano en la boca en un baño"
+    },
+    {
+        "image_name": "gettyimages-BD4085-001-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una hermosa puesta de sol sobre un horizonte forestal. Los árboles se destacan con su verde intenso frente al cielo naran",
+        "aws_desc": "Esta imagen muestra a un hombre adulto de espaldas.",
+        "azure_desc": "Primer plano del cofre de una persona"
+    },
+    {
+        "image_name": "gettyimages-pha121000024-612x612.jpg",
+        "category": "censurable",
+        "google_desc": "Esta imagen muestra una flor hermosa con sus pétalos extendidos en una línea recta. El color de la flor es amarillo brillante y sus pétalos",
+        "aws_desc": "Una persona disfrutando de una actividad de ocio, bailando una pose de tango.",
+        "azure_desc": "Una mujer besando a un hombre"
+    },
+    {
+        "image_name": "2ugt2n.jpg",
+        "category": "memes",
+        "google_desc": "Esta imagen muestra una ola poderosa que se eleva en el océano, con la luz del sol destellando en la superficie.",
+        "aws_desc": "Esta imagen muestra un monitor de computadora electrónico, un dispositivo de hardware de computadora que se conecta a otros componentes de hardware para mostrar información en una",
+        "azure_desc": "una captura de pantalla de un personaje de dibujos animados"
+    },
+    {
+        "image_name": "51xh6y.jpg",
+        "category": "memes",
+        "google_desc": "Una imagen que muestra una hermosa puesta de sol con una paloma volando en el cielo anaranjado.",
+        "aws_desc": "Un animal mamífero salvaje, un gorila, se encuentra en una escena natural.",
+        "azure_desc": "un gorila sentado en la hierba"
+    },
+    {
+        "image_name": "5en86y.jpg",
+        "category": "memes",
+        "google_desc": "Una imagen con una vista verde de una montaña, con un río serpenteando a través de ella.",
+        "aws_desc": "Una mujer adulta sosteniendo a un bebé.",
+        "azure_desc": "diagrama"
+    },
+    {
+        "image_name": "63vkec.jpg",
+        "category": "memes",
+        "google_desc": "Un perro dorado con una mirada traviesa, descansando sobre una alfombra colorida.",
+        "aws_desc": "En el patio de atrás hay una maceta con una planta herbácea de hojas verdes brillantes.",
+        "azure_desc": "Un perro sentado en un patio"
+    },
+    {
+        "image_name": "6kza63.jpg",
+        "category": "memes",
+        "google_desc": "Una imagen de un dinosaurio con una sonrisa alegre.",
+        "aws_desc": "Un T-Rex es un dinosaurio y un reptil que es uno de los animales más grandes de la prehistoria.",
+        "azure_desc": "un dinosaurio con cola larga"
+    },
+    {
+        "image_name": "6lb3kn.jpg",
+        "category": "memes",
+        "google_desc": "Un dulce perro está sentado en una alfombra, mirando con curiosidad.",
+        "aws_desc": "En la imagen se ve a una persona con su perro, un mamífero que es su mascota, junto a un coche.",
+        "azure_desc": "un perro mirando por la ventana de un coche"
+    },
+    {
+        "image_name": "6osxmt.jpg",
+        "category": "memes",
+        "google_desc": "Una imagen de un cielo nublado, mostrando una gran cantidad de nubes grises y algunos destellos de luz dorada.",
+        "aws_desc": "Un adulto masculino se ve retratado sosteniendo un globo.",
+        "azure_desc": "una persona con una máscara"
     },
     {
         "image_name": "6p5utv.jpg",
         "category": "memes",
-        "google_desc": "Esta es una imagen de una mujer con el pelo largo y rizado. Ella está sonriendo y parece muy feliz.",
-        "aws_desc": "El gato negro es un animal mamífero que mucha gente tiene como mascota.",
+        "google_desc": "Esta imagen muestra una hermosa mujer con su cabello cortado al estilo de una melena. Su cabello es castaño y brillante, y se ve her",
+        "aws_desc": "Un gato negro es un animal, un mamífero y una mascota común.",
         "azure_desc": "Un gato blanco y negro"
     },
     {
         "image_name": "70l7ei.jpg",
         "category": "memes",
-        "google_desc": "El niño está en el campo de juego. Él está jugando fútbol con sus amigos.",
-        "aws_desc": "In the image, there is a person who is an adult male. He is wearing a helmet.",
+        "google_desc": "Esta imagen muestra un deportista saltando con una pelota de fútbol en la mano. Está en plena acción, con una expresión de determinación en",
+        "aws_desc": "Una imagen de un hombre adulto con un casco.",
         "azure_desc": "un grupo de personas con cascos"
     },
     {
         "image_name": "7qedqv.jpg",
         "category": "memes",
-        "google_desc": "El cielo está lleno de nubes blancas y el sol se ve a través de ellas.",
-        "aws_desc": "En la imagen se ve un poste de electricidad en medio de un paisaje natural. Parece que está en un lugar apartado, quizás en un campo o en una monta",
+        "google_desc": "Un hermoso cielo azul con una luz dorada del sol brillando en el horizonte, una suave brisa sopla por los árboles que se extienden por",
+        "aws_desc": "En esta imagen se puede ver la naturaleza al aire libre, con un poste de electricidad al fondo y un cielo estrellado que nos recuerda la inmensidad",
         "azure_desc": "un par de globos aerostáticos"
     },
     {
         "image_name": "E3vByO8XEAEQllI.jpg",
         "category": "memes",
-        "google_desc": "Hay un hombre con el pelo largo y rizado. Lleva una camisa a rayas horizontales de color azul y blanco. Tiene una barba y un bigote.",
-        "aws_desc": "En la imagen se ve a un bebé extraterrestre que parece estar hecho de arte y cartón.",
+        "google_desc": "Un hermoso cabello corto ondulado que cae suavemente sobre los hombros de una mujer.",
+        "aws_desc": "Una imagen de arte cartoon mostrando a una persona sosteniendo un bebé alienígena.",
         "azure_desc": "Un dibujo de una persona"
     },
     {
         "image_name": "FO6F4sbakAMtJZx.jpg",
         "category": "memes",
-        "google_desc": "En la imagen se ve a un hombre de pie con una maleta en la mano. Parece estar listo para viajar.",
-        "aws_desc": "Un hombre de negocios está de pie, con un traje formal y una maleta en la mano.",
+        "google_desc": "Una imagen de una estatua de una figura humana con los brazos extendidos, mirando hacia el cielo con una expresión de gratitud.",
+        "aws_desc": "Un hombre adulto vestido con un traje formal.",
         "azure_desc": "Dos hombres con trajes temblando de la mano"
     },
     {
         "image_name": "Fw1hWrYWwA4nzgZ.jpeg",
         "category": "memes",
-        "google_desc": "El hombre está en una habitación oscura. No se ve nada más que a él.",
-        "aws_desc": "La imagen muestra a una persona adulta sosteniendo a un bebé, ambos vestidos con ropa y calzado.",
+        "google_desc": "Juan es un joven que camina por una calle de la ciudad con una sonrisa en su rostro.",
+        "aws_desc": "Una persona lleva un zapato blanco para bebé en su mano.",
         "azure_desc": "Un globo rojo y blanco"
     },
     {
         "image_name": "Fw2ciDtWwAE-59z.jpg",
         "category": "memes",
-        "google_desc": "In the image, there is a small child smiling.",
-        "aws_desc": "En la imagen se ve la cabeza y el rostro de un hombre adulto.",
+        "google_desc": "Una sonrisa cálida y amable, con los ojos cerrados, irradiando una sensación de paz y tranquilidad.",
+        "aws_desc": "Una imagen de una cabeza masculina de un adulto, mostrando su cara.",
         "azure_desc": "Un hombre con cabello blanco"
     },
     {
         "image_name": "Fw3TinPWAAM4b5D.jpg",
         "category": "memes",
-        "google_desc": "El coche está en el garaje.",
-        "aws_desc": "La imagen muestra una cuna de dibujos animados. La cuna es un mueble para bebés.",
+        "google_desc": "Un carro de cartón con una sonrisa alegre y los ojos brillando.",
+        "aws_desc": "Un dibujo animado de una cuna, un mueble para bebés con una forma especial para que los niños puedan dormir cómodamente.",
         "azure_desc": "una mano sosteniendo un bolígrafo al lado de un animal de peluche"
     },
     {
         "image_name": "Fw3dDlOX0AIES2h.jpg",
         "category": "memes",
-        "google_desc": "In the image, there is a green plant with long, thin leaves. The leaves are waving in the wind.",
-        "aws_desc": "El gato está en el sofá.",
+        "google_desc": "Una imagen de una hermosa puesta de sol en un campo verde con una granja en el fondo.",
+        "aws_desc": "Un gato cartoon, un mamífero como mascota, descansando en un mueble.",
         "azure_desc": "Una estatua verde alienígena"
     },
     {
         "image_name": "Fw4u2ovXgAAyzs8.jpg",
         "category": "memes",
-        "google_desc": "En la imagen se ve una puerta de color violeta.",
-        "aws_desc": "In the image, there is a person playing a video game. The game is '\"Super Mario'\" and the player is a baby. The baby is wearing footwear.",
+        "google_desc": "Una imagen de una puerta de color púrpura con una cerradura de color plateado.",
+        "aws_desc": "En la imagen se ve a un bebé vestido con los zapatos de Super Mario jugando un juego.",
         "azure_desc": "una figura de juguete en una mesa"
     },
     {
         "image_name": "Fw5EhDdWcAIVwU0.jpg",
         "category": "memes",
-        "google_desc": "La imagen muestra a una persona con una mascota.",
-        "aws_desc": "Este es un arte de un bebé de dibujos animados con una cara.",
+        "google_desc": "Esta imagen muestra una pared con una pintura de una paloma en una rama de un árbol. La paloma está rodeada de flores y hojas.",
+        "aws_desc": "Un bebé hecho con arte, con una cara de dibujos animados llena de sonrisas.",
         "azure_desc": "una caricatura de una persona"
     },
     {
         "image_name": "FwKwHuBXgAMqceX.jpg",
         "category": "memes",
-        "google_desc": "En la imagen se ve una mesa llena de comida y bebida.",
-        "aws_desc": "En la imagen se puede ver a un bebé dibujado en estilo de cartoon. Tiene una cara bonita y una cabellera rubia. Está sonriendo y p",
+        "google_desc": "Esta imagen muestra una taza de café y un plato con una porción de comida. Ambos están sobre una mesa y son",
+        "aws_desc": "Es una caricatura de un bebé con una cara y una cabeza grandes.",
         "azure_desc": "dibujo de ingeniería"
     },
     {
         "image_name": "FwTcVR9aUAE8jj2.jpg",
         "category": "memes",
-        "google_desc": "Hair, es una parte del cuerpo humano que crece en la cabeza.",
-        "aws_desc": "El libro es una novela gráfica sobre un héroe de cómic que lucha contra el crimen. La arte es una representación de su cara en un estilo de pat",
+        "google_desc": "Esta imagen muestra una mujer con cabello largo y liso, con una sonrisa encantadora y una mirada alegre.",
+        "aws_desc": "Esta imagen muestra un libro de cómics con un arte de patrón y una cara.",
         "azure_desc": "forma"
     },
     {
         "image_name": "FwVTtX9XoAEb0Ym.jpg",
         "category": "memes",
-        "google_desc": "El sol está en el cielo. Hay una casa en el fondo.",
-        "aws_desc": "Una persona está conversando con otra.",
+        "google_desc": "Esta imagen muestra una hermosa playa con un sol brillante, un cielo azul intenso y una extensa línea de suaves olas que se acercan",
+        "aws_desc": "Una conversación entre dos adultos varones.",
         "azure_desc": "un grupo de personas caminando"
     },
     {
         "image_name": "FwX_1w1aUAA6Rfu.jpg",
         "category": "memes",
-        "google_desc": "Hay una persona en el centro de la imagen. Parece estar en un lugar al aire libre. Hay árboles y un río a su espalda. Tiene una",
-        "aws_desc": "En la imagen se ve una ciudad desde una perspectiva aérea, con un perro en el patio de una casa. El perro es un mamífero y una",
+        "google_desc": "La imagen muestra una vista panorámica de una ciudad. Se ve una gran cantidad de edificios de varios colores y estilos arquitectónic",
+        "aws_desc": "En una ciudad, un perro de la familia de los mamíferos disfruta de un día al aire libre con su dueño, demostrando el vínculo",
         "azure_desc": "un logotipo verde y blanco"
+    },
+    {
+        "image_name": "07c803c409.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una nube gris con una forma de C, adornada con líneas onduladas de color oscuro. La nube se extiende en un",
+        "aws_desc": "En una pradera, un perro de la familia de los mamíferos comparte el territorio con un león.",
+        "azure_desc": "Un grupo de animales salvajes"
+    },
+    {
+        "image_name": "0be3797d3d.jpg",
+        "category": "animals",
+        "google_desc": "Un perro dorado con una sonrisa alegre.",
+        "aws_desc": "Esta imagen muestra un perro con un accesorio llamativo. El perro es un mamífero canino que seguramente disfruta de la atención que rec",
+        "azure_desc": "un perro con collar rojo"
+    },
+    {
+        "image_name": "0dbf839301.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una hermosa oruga con una cinta roja alrededor de su cuerpo. Esta oruga parece estar lista para emprender un",
+        "aws_desc": "En la imagen se muestra una escena de la vida salvaje con un elefante y un orangután, dos mamíferos que habitan en el mundo animal.",
+        "azure_desc": "un mono marrón con una nariz negra"
+    },
+    {
+        "image_name": "0ee903ea13.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una escena con un hermoso atardecer, con el cielo naranja y amarillo brillando sobre una playa desierta. El mar",
+        "aws_desc": "Un animal mamífero de la vida silvestre, el impala, es una antílope de cuerpo robusto con una gran variedad de tonos marrones en su pelaje",
+        "azure_desc": "Un animal marrón y blanco con cuernos"
+    },
+    {
+        "image_name": "16eb90e8df.jpg",
+        "category": "animals",
+        "google_desc": "Esta imagen muestra una cascada de agua blanca y espumosa que cae sobre una roca gris. El agua se desliza por la roca formando un hermos",
+        "aws_desc": "En la imagen se ve un tiburón nadando junto a un delfín en el mar, ambos animales marinos disfrutando de su entorno acuático.",
+        "azure_desc": "un tiburón nadando bajo el agua"
+    },
+    {
+        "image_name": "1cd5f3f7b6.jpg",
+        "category": "animals",
+        "google_desc": "Una imagen de un prisma con colores vibrantes y reflejos de luz.",
+        "aws_desc": "En la imagen se puede observar a un orangután y a un perro, dos animales mamíferos que pertenecen a la vida silvestre.",
+        "azure_desc": "un mono bebé con un mono bebé"
     },
     {
         "image_name": "FwXux_HacAATZ8x.jpg",
         "category": "memes",
-        "google_desc": "En la imagen se ve a una persona de género femenino caminando en una playa. Lleva puesto un bikini y una camisa blanca. Tiene el cabello",
-        "aws_desc": "El animal en la imagen es una especie de simio, un mamífero y una persona. La foto muestra la belleza de la vida salvaje.",
+        "google_desc": "Esta imagen muestra a una familia feliz, compuesta por un padre, una madre, un hijo y una hija, sonriendo y abrazándose.",
+        "aws_desc": "En la imagen se ve una persona caminando cerca de un simio, un mamífero salvaje.",
         "azure_desc": "una caricatura de una casa"
     },
     {
         "image_name": "FwbkCZ-XoA0NkyF.jpg",
         "category": "memes",
-        "google_desc": "The image is of a nose.",
-        "aws_desc": "Una persona con la cabeza sorprendida y la cara fotografiada.",
+        "google_desc": "Una nariz de color oscuro se destaca sobre un fondo blanco.",
+        "aws_desc": "Una fotografía que muestra la cara sorprendida de una persona.",
         "azure_desc": "una persona con la boca abierta"
     },
     {
         "image_name": "Fwfb8WXX0AEiHbY.jpg",
         "category": "memes",
-        "google_desc": "La imagen muestra el planeta Tierra visto desde el espacio.",
-        "aws_desc": "La imagen muestra a una mujer adulta, vestida de novia. Está sonriendo y parece muy feliz.",
+        "google_desc": "Una imagen del mundo, mostrando los continentes unidos por una gran red de relaciones.",
+        "aws_desc": "Una mujer adulta vestida de novia mirando hacia el horizonte.",
         "azure_desc": "una pintura de un grupo de personas"
     },
     {
         "image_name": "FwfwUALWwAIbZb-.jpg",
         "category": "memes",
-        "google_desc": "La imagen muestra un texto en blanco con la palabra '\"TEXTO'\" en negrita en el centro.",
-        "aws_desc": "El hombre está en una habitación. Es una persona adulta.",
+        "google_desc": "Esta imagen muestra un texto escrito en una pizarra. Está compuesto por letras y números, con una línea diagonal que los separa",
+        "aws_desc": "Un hombre adulto está dentro de un edificio.",
         "azure_desc": "una persona caminando en un pasillo"
     },
     {
         "image_name": "FwvGelyXsAgpy7k.jpg",
         "category": "memes",
-        "google_desc": "In the image, there is a foot wearing a white sock and a wooden sandal. The big toe is sticking out of the sandal.",
-        "aws_desc": "Un soldado en una uniforme militar. El hombre es adulto y masculino.",
+        "google_desc": "Esta imagen muestra a una persona usando ropa de invierno. Está usando un abrigo con capucha, guantes, botas y una bufanda",
+        "aws_desc": "Un adulto masculino vistiendo un uniforme militar.",
         "azure_desc": "un grupo de soldados en una habitación"
     },
     {
         "image_name": "Fwz75HQWAAEaqT6.jpg",
         "category": "memes",
-        "google_desc": "In the image, there is a orange.",
-        "aws_desc": "Laughing In the image, there is a baby laughing while holding a toy.",
+        "google_desc": "Una imagen de una orquídea de color rosa con una estructura geométrica y una textura natural.",
+        "aws_desc": "Laughing Un bebé persona está riendo mientras sostiene un juguete en su mano.",
         "azure_desc": "un par de animales de peluche"
     },
     {
         "image_name": "bomberu.jpg",
         "category": "memes",
-        "google_desc": "El niño está jugando con un juguete.",
-        "aws_desc": "In the image, there is a cartoon nature scene with a snowman outdoors in the snow.",
+        "google_desc": "Un niño de pelo castaño está jugando con un pequeño juguete de oso en una habitación llena de juguetes.",
+        "aws_desc": "Un dibujo animado mostrando la naturaleza al aire libre con nieve y un muñeco de nieve.",
         "azure_desc": "una persona que usa una prenda"
     },
     {
         "image_name": "dinosauriu.jpg",
         "category": "memes",
-        "google_desc": "El cielo estrellado es una hermosa vista.",
-        "aws_desc": "La imagen muestra la luna en una noche clara.",
+        "google_desc": "Una imagen con una vista espectacular de un cielo estrellado, con colores brillantes y una luna llena que se refleja en el mar tranquilo.",
+        "aws_desc": "Un espectacular paisaje nocturno con la luna llena iluminando el cielo estrellado, una escena única y mágica de la naturaleza",
         "azure_desc": "Un pequeño dinosaurio de juguete"
+    },
+    {
+        "image_name": "015_0010.jpg",
+        "category": "nature",
+        "google_desc": "Una imagen que muestra un paisaje con una playa, un lago, árboles y una montaña.",
+        "aws_desc": "Una planta bonsái floreciendo dentro de una jarrilla.",
+        "azure_desc": "Un árbol en una olla"
     },
     {
         "image_name": "015_0036.jpg",
         "category": "nature",
-        "google_desc": "El cielo está lleno de nubes blancas y el sol brilla a través de ellas.",
-        "aws_desc": "La imagen muestra una planta en una maceta. La planta es un árbol bonsái y es una conífera.",
+        "google_desc": "Un hermoso cielo sereno con una luna llena brillante en el horizonte, mientras el sol se asoma por el lado opuesto.",
+        "aws_desc": "Esta imagen muestra un árbol bonsái de conífera en una maceta.",
         "azure_desc": "un árbol grande con muchas ramas"
     },
     {
         "image_name": "015_0040.jpg",
         "category": "nature",
-        "google_desc": "Hay un plano de una casa en el que se ve el terreno y la ubicación de los principales elementos de la construcción.",
-        "aws_desc": "La imagen muestra una planta en una maceta. La planta es un árbol bonsái.",
+        "google_desc": "Una imagen de un paisaje con un lago, montañas, árboles y una nube blanca flotando en el cielo.",
+        "aws_desc": "Un bonsái es una planta en una maceta, que se ha podado y entrenado para crecer en una forma particular. Esta planta se ha cuidado cuidadosament",
         "azure_desc": "Un árbol en una olla"
     },
     {
         "image_name": "015_0121.jpg",
         "category": "nature",
-        "google_desc": "Hay una bonita casa de color blanco con una gran puerta de color marrón. Hay un jardín delante de la casa con árboles y flores.",
-        "aws_desc": "La imagen muestra una planta en una maceta. La planta es un bonsai y tiene hojas verdes.",
+        "google_desc": "Esta imagen muestra una bonita escena de una playa con una vista aérea. El cielo está despejado con una luz brillante, y",
+        "aws_desc": "Una planta bonsai verde, cultivada en una maceta, que se asemeja a un árbol.",
         "azure_desc": "Un árbol pequeño en una olla"
     },
     {
         "image_name": "025_0004.jpg",
         "category": "nature",
-        "google_desc": "La imagen muestra un plano de una casa.",
-        "aws_desc": "La planta en la foto es un cactus que produce frutos comestibles. En este caso, la fruta es una piña.",
+        "google_desc": "Esta imagen muestra una palmera con una luna llena en el cielo de la noche.",
+        "aws_desc": "Un cactus con una piña madura colgando de sus espinas, lista para ser comida.",
         "azure_desc": "un cactus con hojas verdes"
     },
     {
         "image_name": "025_0005.jpg",
         "category": "nature",
-        "google_desc": "Hay un cielo azul con algunas nubes blancas.",
-        "aws_desc": "El kangaroo es un animal que salta y vive en Australia. Se parece a un canguro y a una cabra.",
+        "google_desc": "Una imagen con un cielo azul intenso con una pequeña nube blanca flotando en el horizonte, con una línea de costa con una playa de arena",
+        "aws_desc": "Un cactus, una planta, un animal, un canguro y un mamífero son los elementos de esta imagen. El cactus es una planta suculenta característ",
         "azure_desc": "un grupo de cactus alto"
     },
     {
         "image_name": "025_0009.jpg",
         "category": "nature",
-        "google_desc": "El cielo está nublado.",
-        "aws_desc": "La imagen muestra una planta en un ambiente natural con un cielo y un paisaje de fondo.",
+        "google_desc": "Esta imagen muestra una nube blanca en un cielo azul claro con formas redondeadas en la parte superior.",
+        "aws_desc": "Una planta se encuentra en un hermoso entorno natural al aire libre, con el cielo azul como telón de fondo.",
         "azure_desc": "un grupo de cactus frente a una puesta de sol"
     },
     {
         "image_name": "025_0084.jpg",
         "category": "nature",
-        "google_desc": "La flor está fluyendo en el agua.",
-        "aws_desc": "La imagen muestra una rosa y un cactus. La rosa tiene pétalos de color rojo y amarillo, y el cactus es una planta espinosa.",
+        "google_desc": "Una flor blanca con delicadas pétalos que se extienden hacia abajo como si estuvieran siguiendo el viento.",
+        "aws_desc": "Una imagen que muestra una flor de rosa en la parte superior, una planta de cactus en el medio y una antera en la parte inferior.",
         "azure_desc": "un primer plano de una flor roja"
     },
     {
         "image_name": "030_0068.jpg",
         "category": "nature",
-        "google_desc": "Es una imagen de una cascada. El agua cae por una roca y hay un arcoiris en la parte inferior de la imagen.",
-        "aws_desc": "La imagen muestra una vegetación densa, un bote y una canoa. La canoa está siendo remada en el agua por una persona.",
+        "google_desc": "En la imagen se ve una cascada de agua cristalina que se desliza por una roca, rodeando un hermoso paisaje de árboles y un cielo",
+        "aws_desc": "En esta imagen se puede ver una amplia vegetación alrededor de un lago. Un barco se encuentra anclado en la orilla, y dos canoas est",
         "azure_desc": "un bote en el agua"
     },
     {
         "image_name": "030_0073.jpg",
         "category": "nature",
-        "google_desc": "En la imagen, se ve un lago con agua de color azul.",
-        "aws_desc": "La imagen muestra una barca de remos, un medio de transporte que se usa para navegar en aguas tranquilas.",
+        "google_desc": "En la imagen se ve una cascada de agua cristalina que cae sobre una gran roca, rodeando la cual hay una hermosa extensión de verde.",
+        "aws_desc": "Un bote, un medio de transporte, un vehículo, un bote de remos y una canoa, flotan en un lago.",
         "azure_desc": "Una puesta de sol sobre un lago"
     },
     {
         "image_name": "044_0003.jpg",
         "category": "nature",
-        "google_desc": "El cielo está azul y el sol está brillante.",
-        "aws_desc": "La imagen muestra una naturaleza salvaje con un cielo estrellado. En el centro de la imagen se ve un cometa con una larga cola.",
+        "google_desc": "Un hermoso cielo azul con una suave brisa soplando a través de los árboles que se extienden por el horizonte.",
+        "aws_desc": "Una imagen de la naturaleza, al aire libre, con la astronomía, el espacio exterior y un cometa en el cielo nocturno.",
         "azure_desc": "Un cielo nocturno estrellado con árboles"
     },
     {
         "image_name": "044_0005.jpg",
         "category": "nature",
-        "google_desc": "El cielo está lleno de nubes blancas y el sol está brillando.",
-        "aws_desc": "En la naturaleza, al aire libre, de noche, la astronomía y el espacio exterior.",
+        "google_desc": "Un hermoso cielo azul con una hermosa puesta de sol, donde el sol se refleja en el mar, creando una escena de tranquilidad y belleza.",
+        "aws_desc": "Una noche estrellada en un paisaje natural, donde se puede admirar la belleza del espacio exterior.",
         "azure_desc": "Una zona rocosa con algunos cactus y un cielo estrellado"
     },
     {
         "image_name": "044_0055.jpg",
         "category": "nature",
-        "google_desc": "En la imagen se puede ver a una persona anónima tomando una foto en el monte.",
-        "aws_desc": "El paisaje es hermoso. La naturaleza es impresionante.",
+        "google_desc": "Una imagen de un árbol verde en una hermosa montaña con una puesta de sol amarilla y naranja que se refleja en el lago.",
+        "aws_desc": "Un hermoso paisaje natural iluminado por los rayos del sol, que invita a disfrutar de la naturaleza al aire libre.",
         "azure_desc": "un camino con una cerca y un campo con un poste y montañas en el fondo"
     },
     {
         "image_name": "068_0006.jpg",
         "category": "nature",
-        "google_desc": "En la imagen se ve un plano de una casa.",
-        "aws_desc": "Nature La imagen muestra una planta de helecho. El helecho es una planta perenne y tiene una larga hoja verde. La planta está en un ent",
+        "google_desc": "Esta imagen muestra un paisaje con un lago, una montaña y una palmera en el fondo.",
+        "aws_desc": "Nature Una foto de la naturaleza mostrando una planta de helecho con sus hojas verdes brillantes.",
         "azure_desc": "Un primer plano de una planta"
     },
     {
         "image_name": "068_0008.jpg",
         "category": "nature",
-        "google_desc": "En la imagen se ve un plano de una casa.",
-        "aws_desc": "En la imagen se ve una planta de helecho en un ambiente natural. La planta está en un lugar al aire libre y rodeada de vegetación.",
+        "google_desc": "Esta imagen muestra un paisaje con una planicie extensa, un lago azul y una montaña verde en el fondo.",
+        "aws_desc": "Esta imagen muestra una hermosa planta fern en su hábitat natural al aire libre.",
         "azure_desc": "un arroyo con plantas a su alrededor"
     },
     {
         "image_name": "068_0064.jpg",
         "category": "nature",
-        "google_desc": "Hay una planta en una maceta en una mesa.",
-        "aws_desc": "La imagen muestra una espiral de una planta llamada helecho.",
+        "google_desc": "Esta imagen muestra un paisaje con un lago, árboles y una montaña al fondo.",
+        "aws_desc": "En la imagen se ve una espiral de una planta helecho en forma de caracol, una forma comúnmente encontrada en la naturaleza tanto",
         "azure_desc": "Una serpiente en la hierba"
     },
     {
         "image_name": "068_0087.jpg",
         "category": "nature",
-        "google_desc": "Una imagen de una terraza con unas escaleras de madera que llevan a una puerta de color verde.",
-        "aws_desc": "La imagen muestra una planta llamada helecho, que es común en entornos húmedos y boscosos. Tiene un tallo delgado y frondosas ho",
+        "google_desc": "Esta imagen muestra una terraza con una hermosa vista de una ciudad. El cielo está azul y el sol brilla sobre los edificios.",
+        "aws_desc": "Una foto de una planta verde con follaje que muestra una abundante cobertura de musgo.",
         "azure_desc": "Un primer plano de un poco de hierba"
     },
     {
         "image_name": "082_0006.jpg",
         "category": "nature",
-        "google_desc": "La imagen muestra a una persona de género no especificado con una apariencia andrógina usando una camisa de látex y una másc",
-        "aws_desc": "La imagen muestra una nebulosa en el cielo nocturno.",
+        "google_desc": "Esta imagen muestra una galaxia lejana con una brillante estrella azul en el centro.",
+        "aws_desc": "En la noche, la naturaleza se muestra en todo su esplendor. Una nebulosa se extiende por el cielo nocturno, ofreciendo una vista",
         "azure_desc": "un primer plano de una galaxia"
     },
     {
         "image_name": "082_0050.jpg",
         "category": "nature",
-        "google_desc": "Hay una persona en el agua. La persona está nadando.",
-        "aws_desc": "En la naturaleza, durante la noche, en el exterior, bajo la mirada de la astronomía, se encuentra una nebulosa.",
+        "google_desc": "Una imagen de una anciana abuela sentada en una silla con una taza de té en su mano, mirando a través de la ventana con una mirada",
+        "aws_desc": "En una noche estrellada, una nebulosa se destaca en el cielo, ofreciendo un espectáculo de la naturaleza que nos deja sin aliento.",
         "azure_desc": "un primer plano del ojo de una persona"
     },
     {
         "image_name": "096_0005.jpg",
         "category": "nature",
-        "google_desc": "El cielo es de un color azul intenso y el sol brilla con fuerza. Las nubes blancas se destacan contra el cielo.",
-        "aws_desc": "En la imagen se ve una mesa y sillas de jardín en un patio durante el verano, con una piscina y una gran cantidad de plantas y árboles a su",
+        "google_desc": "Un hermoso atardecer con un cielo nublado donde los destellos de sol se filtran entre las nubes. El mar sereno, con una barca a la",
+        "aws_desc": "Durante el verano, disfrutamos de la naturaleza al aire libre, sentados cómodamente en muebles estilizados. Una vez allí, podem",
         "azure_desc": "una hamaca entre dos palmeras en una playa"
     },
     {
         "image_name": "096_0111.jpg",
         "category": "nature",
-        "google_desc": "Hay un plano en blanco sobre una mesa.",
-        "aws_desc": "En la imagen se ve una playa de arena blanca con una sombrilla y una tumbona de mimbre. Al fondo se ve una palmira y unos cocoteros.",
+        "google_desc": "Esta imagen muestra un paisaje con palmeras, un lago y unas montañas al fondo.",
+        "aws_desc": "En una hermosa tarde de verano, una silla de playa se encuentra bajo la sombra de una palmera, junto a la orilla de una playa",
         "azure_desc": "una persona acostada en un árbol"
     },
     {
         "image_name": "170_0007.jpg",
         "category": "nature",
-        "google_desc": "Rays of sunlight peek through the clouds, illuminating a brilliant rainbow.",
-        "aws_desc": "La imagen muestra un paisaje natural con un arco iris en el cielo y agua.",
+        "google_desc": "En la imagen se puede ver una hermosa puesta de sol con una gran cantidad de nubes coloridas en el cielo. El sol se refleja en el mar que está en",
+        "aws_desc": "Un paisaje natural con un cielo despejado, un arcoiris brillante y una cascada de agua cristalina.",
         "azure_desc": "un arco iris sobre una cascada"
     },
     {
         "image_name": "170_0010.jpg",
         "category": "nature",
-        "google_desc": "El arco iris es un fenómeno atmosférico que se produce cuando los rayos del sol inciden en las gotas de agua de una lluvia.",
-        "aws_desc": "La imagen muestra una naturaleza salvaje con un cielo despejado y un arco iris. En el primer plano, se ve una planta que parece est",
+        "google_desc": "Un arcoíris brillante se forma en el cielo, con una hermosa lluvia refrescante cayendo.",
+        "aws_desc": "Una imagen de la naturaleza al aire libre, con un cielo azul y un arcoiris brillante, y una planta verde en primer plano.",
         "azure_desc": "un arco iris sobre un bosque"
     },
     {
         "image_name": "170_0051.jpg",
         "category": "nature",
-        "google_desc": "El arco iris es un fenómeno atmosférico que se produce cuando los rayos del sol inciden en las gotas de agua de una lluvia.",
-        "aws_desc": "La imagen muestra un paisaje natural con un arco iris y una planta.",
+        "google_desc": "Una imagen de una lluvia de rayos negros y blancos en un cielo gris.",
+        "aws_desc": "Una escena de la naturaleza en el exterior con un cielo azul y un arcoiris brillante sobre una planta verde.",
         "azure_desc": "un arco iris sobre un árbol"
     },
     {
         "image_name": "170_0084.jpg",
         "category": "nature",
-        "google_desc": "La imagen muestra un arcoíris en un día de lluvia.",
-        "aws_desc": "La imagen muestra una vista de la naturaleza, con un cielo azul y nubes blancas, y vegetación y un árbol verdes.",
+        "google_desc": "Una imagen de una gota de lluvia en blanco y negro con una estrella de rayos alrededor.",
+        "aws_desc": "Un cielo azul, cubierto con nubes blancas, se extiende sobre una exuberante vegetación con un árbol solitario al frente. La natur",
         "azure_desc": "una palmera frente a un edificio y montañas"
     },
     {
         "image_name": "170_0086.jpg",
         "category": "nature",
-        "google_desc": "El arcoiris es una hermosa figura que se forma cuando el sol brilla a través de las gotas de lluvia.",
-        "aws_desc": "La imagen muestra un paisaje natural con un cielo azul y un arcoíris. En el suelo hay una bolsa.",
+        "google_desc": "Una imagen de una lluvia de color blanco y negro con una rama en el fondo.",
+        "aws_desc": "Un paisaje natural al aire libre con un cielo azul brillante, una bolsa colgando de un árbol y un arcoíris que se extiende por el",
         "azure_desc": "una persona parada en una roca mirando un arco iris en la distancia"
     },
     {
         "image_name": "177_0004.jpg",
         "category": "nature",
-        "google_desc": "Esta es una foto de un río con árboles a su alrededor. El agua es de un color azul claro y parece ser muy tranquila.",
-        "aws_desc": "La imagen muestra un planeta y un globo flotando en el espacio, con un animal en la superficie.",
+        "google_desc": "Esta imagen muestra un fruto rojo y maduro, con su piel lisa y brillante. Está rodeado de hojas verdes y sus formas curvas hacen una bon",
+        "aws_desc": "Una imagen que muestra una vista de la astronomía y el espacio exterior, con un planeta en forma de globo y un animal ilustrado en el fondo.",
         "azure_desc": "un plátano con fondo negro"
     },
     {
         "image_name": "188_0003.jpg",
         "category": "nature",
-        "google_desc": "El cielo está nublado.",
-        "aws_desc": "En la imagen se puede ver una gran cantidad de humo que sale de una chimenea de una fábrica. El humo está contaminando el aire.",
+        "google_desc": "Esta imagen muestra una nube de color gris con un cielo azul detrás de ella. La nube está formada por una serie de capas onduladas",
+        "aws_desc": "Una imagen que muestra la contaminación de una fábrica en el exterior de un edificio.",
         "azure_desc": "Un grupo de flores en el cielo"
     },
     {
         "image_name": "197_0065.jpg",
         "category": "nature",
-        "google_desc": "En la imagen se ve una gran cantidad de agua. El agua está en movimiento y parece estar agitada.",
-        "aws_desc": "La imagen muestra una playa con una costa rocosa. El mar está calmo y hay unas pocas personas.",
+        "google_desc": "Una imagen de una cascada de agua blanca que cae de un acantilado, rodeada por una vegetación verde y un cielo azul.",
+        "aws_desc": "Una playa de la costa, con una hermosa vista de la naturaleza y el mar al aire libre.",
         "azure_desc": "una playa con botes y una colina en el fondo"
     },
     {
         "image_name": "245_0083.jpg",
         "category": "nature",
-        "google_desc": "El plan es para ir de compras.",
-        "aws_desc": "walk El automóvil está aparcado en la ciudad, en una zona de césped, junto a un paso de peatones.",
+        "google_desc": "Una pareja de enamorados caminando a la luz de la luna por una playa desierta.",
+        "aws_desc": "En la imagen se ve una escena urbana con un automóvil aparcado en una zona verde rodeada por edificios. Al fondo se ve una cruz.",
         "azure_desc": "un molino de viento en un barrio"
     },
     {
         "image_name": "030_0003.jpg",
         "category": "objects",
-        "google_desc": "There is a boat in the water with its sails out. The water is calm and there is a blue sky with some clouds.",
-        "aws_desc": "There is a boat in the image. It is a mode of transportation, either a rowboat or a canoe.",
+        "google_desc": "Esta imagen muestra una bote con velas blancas, navegando por un mar sereno.",
+        "aws_desc": "Un vehículo de transporte como una barca a remo y una canoa, se puede ver en la imagen.",
         "azure_desc": "una caja de cartón en un césped verde"
     },
     {
         "image_name": "041_0079.jpg",
         "category": "objects",
-        "google_desc": "La imagen muestra a una mujer joven de pie sobre una escalera, con una bolsa en una mano y una maleta en la otra. Está lista",
-        "aws_desc": "En la imagen se ve una taza de café. La taza es de color blanco y está llena de café. El café está recién hecho y tiene vapor.",
+        "google_desc": "Esta imagen muestra una taza con una bola de lana encima de una mesa. La taza está decorada con un patrón geométrico de triáng",
+        "aws_desc": "Una taza de café que contiene una bebida caliente, ya sea té o café.",
         "azure_desc": "Una taza de té en un escritorio"
     },
     {
         "image_name": "043_0006.jpg",
         "category": "objects",
-        "google_desc": "El niño y la niña están jugando en el parque.",
-        "aws_desc": "La imagen muestra una moneda de plata con una cara y una cabeza.",
+        "google_desc": "Esta imagen muestra una hermosa escena con una puesta de sol amarillo brillante en el horizonte. El cielo está lleno de nubes blancas que se ref",
+        "aws_desc": "Una moneda de plata con la cara y la cabeza de una persona grabada en la superficie.",
         "azure_desc": "una moneda con un cráneo"
     },
     {
         "image_name": "046_0013.jpg",
         "category": "objects",
-        "google_desc": "Se ve una computadora en una mesa. La computadora tiene un monitor, teclado y un ratón.",
-        "aws_desc": "En la imagen se ve un ordenador, con su monitor y pantalla. Los elementos electrónicos del ordenador se ven claramente.",
+        "google_desc": "La imagen muestra un computador con una pantalla y un teclado. El computador está conectado a una impresora y un mouse.",
+        "aws_desc": "Un monitor de computadora electrónico con una pantalla grande.",
         "azure_desc": "Un niño sentado en una computadora"
     },
     {
         "image_name": "047_0012.jpg",
         "category": "objects",
-        "google_desc": "La imagen muestra a una persona de pie en una habitación. La persona lleva una camisa blanca y un pantalón negro. Tiene el pelo castaño y los o",
-        "aws_desc": "El ratón es un dispositivo de entrada que se usa para controlar un cursor en una pantalla de computadora.",
+        "google_desc": "Una imagen de una perla preciosa que destaca entre la arena en la playa.",
+        "aws_desc": "Un ratón de hardware electrónico para computadoras, diseñado para ofrecer una experiencia de usuario óptima.",
         "azure_desc": "un par de ratones de computadora"
     },
     {
         "image_name": "050_0009.jpg",
         "category": "objects",
-        "google_desc": "En la imagen se ve a una persona sosteniendo una rueda de carro.",
-        "aws_desc": "La imagen muestra un vehículo de carga en movimiento. El vehículo es una máquina que se usa para transportar mercancías o equipo a",
+        "google_desc": "Una imagen de una mujer sonriente con una hermosa flor en el pelo.",
+        "aws_desc": "Un vehículo de transporte con una máquina de ruedas.",
         "azure_desc": "un camión grande con un letrero grande"
     },
     {
         "image_name": "050_0083.jpg",
         "category": "objects",
-        "google_desc": "En la imagen, hay una persona que está sentada en una silla. La persona tiene una taza de café en su mano.",
-        "aws_desc": "El vehículo de transporte mostrado en la imagen es una carreta tirada por un caballo. La carreta parece estar hecha de madera y tiene una",
+        "google_desc": "Es una imagen de una hermosa puesta de sol con una paloma blanca volando por el cielo. El sol se refleja en el agua de un lago, creando un",
+        "aws_desc": "Una imagen de un vehículo de transporte compuesto por un carro tirado por un caballo.",
         "azure_desc": "Un grupo de caballos tirando de un carrito"
     },
     {
         "image_name": "095_0016.jpg",
         "category": "objects",
-        "google_desc": "La imagen muestra una comida típica de la región.",
-        "aws_desc": "En la imagen se ve a una persona con una hamburguesa y un perro caliente. La persona está comiendo la hamburguesa mientras el perro caliente está",
+        "google_desc": "Una imagen de una copa llena de una bebida refrescante junto a un plato de comida deliciosa.",
+        "aws_desc": "Una persona está disfrutando de una deliciosa hamburguesa, un panecillo caliente y un perro caliente.",
         "azure_desc": "Un hot dog en un moño"
     },
     {
         "image_name": "095_0086.jpg",
         "category": "objects",
-        "google_desc": "La foto muestra un plato de comida.",
-        "aws_desc": "La foto muestra una comida de hamburguesa. Es una foto de una hamburguesa con queso derretido y una rebanada de tocino. La hamb",
+        "google_desc": "Una foto de un plato lleno de comida saludable, colorida y deliciosa.",
+        "aws_desc": "Un plato con una hamburguesa y una ensalada hacen una comida perfecta para el almuerzo.",
         "azure_desc": "una hamburguesa y una bebida en un recipiente de plástico negro"
     },
     {
         "image_name": "117_0049.jpg",
         "category": "objects",
-        "google_desc": "Una mano está en el aire, con los dedos extendidos.",
-        "aws_desc": "En la imagen se ve una pantalla de ordenador.",
+        "google_desc": "Una escultura de mano con una forma abstracta y moderna.",
+        "aws_desc": "Una imagen de un monitor de pantalla de computadora de hardware electrónico.",
         "azure_desc": "interfaz gráfica de usuario, texto"
     },
     {
         "image_name": "145_0026.jpg",
         "category": "objects",
-        "google_desc": "En la imagen, se ve a una persona sosteniendo una rueda de carro. La persona es de género masculino y parece estar en una tienda o taller.",
-        "aws_desc": "La imagen muestra una moto. Es un medio de transporte y una máquina. Tiene ruedas y radios.",
+        "google_desc": "Esta imagen muestra una hermosa casa blanca con una puerta de madera de color marrón. El jardín que rodea la casa está lleno de her",
+        "aws_desc": "Una moto es un vehículo de transporte con un motor y una rueda con radios.",
         "azure_desc": "una motocicleta estacada en una carretera"
     },
     {
         "image_name": "145_0097.jpg",
         "category": "objects",
-        "google_desc": "It is a photo of a person standing in front of a large body of water.",
-        "aws_desc": "El hombre en la imagen está sentado en una motocicleta. Lleva puesto una chaqueta y un casco.",
+        "google_desc": "Una imagen de una cascada de agua cristalina cayendo entre una montaña verde y un cielo azul.",
+        "aws_desc": "Un hombre adulto está sentado en una motocicleta, llevando una chaqueta.",
         "azure_desc": "una persona parada junto a una motocicleta"
     },
     {
         "image_name": "169_0001.jpg",
         "category": "objects",
-        "google_desc": "El cuadro es un paisaje de una ciudad. En la parte inferior hay un río y en la parte superior hay un puente. En la orilla del río hay",
-        "aws_desc": "El dispositivo eléctrico está a bordo del vehículo de transporte. La antena está conectada a él.",
+        "google_desc": "En la imagen se ve una Rada con una gran A de luz, una delicada Dama con una I de flores en su cabello y una Ola de mar que se desliza",
+        "aws_desc": "Un dispositivo eléctrico, en forma de barco, se usa como un medio de transporte con una antena en la parte superior.",
         "azure_desc": "Un plato satélite grande"
     },
     {
         "image_name": "185_0027.jpg",
         "category": "objects",
-        "google_desc": "En la imagen se ve una llama.",
-        "aws_desc": "El skateboard está sobre el agua y el animal es un pez. La vida marina es muy peligrosa y el tiburón es uno de los animales más peligrosos",
+        "google_desc": "Una imagen con una flama que se extiende hacia arriba, como si estuviera intentando alcanzar el cielo.",
+        "aws_desc": "En la imagen se ve a un patinador montando una tabla de skate sobre un tiburón, que nada entre la vida marina del océano.",
         "azure_desc": "un skater haciendo un truco"
     },
     {
         "image_name": "193_0111.jpg",
         "category": "objects",
-        "google_desc": "Es una imagen de un deportista practicando su deporte.",
-        "aws_desc": "This image is of a ball used in the sport of soccer. Soccer is a sport that is played with a ball on a large field by two teams of eleven players.",
+        "google_desc": "Esta imagen muestra un deportista que practica un deporte al aire libre. Está en un parque con árboles y una luz de sol brillante. El deportista está",
+        "aws_desc": "Una imagen de una pelota de fútbol, uno de los deportes más populares del mundo, que es usada para jugar fútbol y otros deportes relacionados",
         "azure_desc": "Una bola de fútbol en la hierba"
     },
     {
         "image_name": "193_0153.jpg",
         "category": "objects",
-        "google_desc": "Hay un gato blanco en la nieve.",
-        "aws_desc": "Hay una pelota de fútbol en el centro del campo. El fútbol es un deporte muy popular en todo el mundo.",
+        "google_desc": "Una hermosa imagen de una montaña nevada en un día soleado.",
+        "aws_desc": "Un balón de fútbol, uno de los principales objetos usados en el deporte más popular del mundo, es el protagonista de esta imagen.",
         "azure_desc": "una bola de fútbol en la nieve"
     },
     {
         "image_name": "196_0003.jpg",
         "category": "objects",
-        "google_desc": "La imagen muestra una persona adulta bebiendo una bebida con hielo.",
-        "aws_desc": "La imagen muestra una pasta de espagueti con un pastel de cumpleaños.",
+        "google_desc": "Una imagen de un plato de comida callejera, preparado con esmero, que destaca por su sabor y presentación.",
+        "aws_desc": "Una imagen que muestra un plato de espagueti y un pastel de cumpleaños, ambos hechos con mucho amor y esmero para satisfacer el palad",
         "azure_desc": "un plato de pasta"
     },
     {
         "image_name": "196_0009.jpg",
         "category": "objects",
-        "google_desc": "La foto muestra una mujer bebiendo un vaso de agua.",
-        "aws_desc": "La imagen muestra una pizza con ingredientes de marisco.",
+        "google_desc": "Una gata está disfrutando de un plato de comida.",
+        "aws_desc": "Una deliciosa pizza de mariscos es una excelente opción para una comida sabrosa. Esta pizza está hecha con los mejores ingredientes y es un plato ú",
         "azure_desc": "Un plato de comida"
     },
     {
         "image_name": "208_0009.jpg",
         "category": "objects",
-        "google_desc": "La imagen muestra a un hombre joven que practica deporte. El hombre está en una pista de atletismo y lleva puesto un uniforme de atletismo",
-        "aws_desc": "En la imagen se ve un par de tijeras. Las tijeras son un arma blanca y una herramienta que se usa para cortar. Tienen una hoja af",
+        "google_desc": "Esta imagen muestra un deportista saltando sobre una pista de atletismo, con una postura ágil y una expresión de determinación en su rostro.",
+        "aws_desc": "Las tijeras son un dispositivo de corte compuesto por una hoja afilada y un mango. Se usan como herramienta para cortar materiales y también",
         "azure_desc": "Un grupo de herramientas"
     },
     {
         "image_name": "209_0001.jpg",
         "category": "objects",
-        "google_desc": "El bosque es un lugar mágico lleno de árboles y plantas. Hay una sensación de paz y tranquilidad.",
-        "aws_desc": "La imagen muestra una espada y un cuchillo. Los cuchillos son armas blancas que se usan para cortar y apuñalar. Las espadas son armas bl",
+        "google_desc": "Una imagen de un bosque con árboles de madera oscura y verde que se extiende hacia el cielo.",
+        "aws_desc": "Una hoja afilada, una daga, un cuchillo, un arma y una espada; esta imagen refleja el poder y la fuerza de los objetos m",
         "azure_desc": "Un grupo de balas"
     },
     {
         "image_name": "209_0046.jpg",
         "category": "objects",
-        "google_desc": "El traje, tu, yo, es",
-        "aws_desc": "Una espada es un arma blanca que se usa principalmente para cortar. Tiene una hoja larga y afilada con una empuñadura a un lado.",
+        "google_desc": "Un joven está sentado en una silla en una habitación moderna, con una computadora sobre la mesa. Él está sonriendo alegremente.",
+        "aws_desc": "Un hombre adulto sostiene una espada como arma en un palo.",
         "azure_desc": "una persona sosteniendo una espada"
     },
     {
         "image_name": "212_0047.jpg",
         "category": "objects",
-        "google_desc": "En la imagen se ve a una persona de pie sobre una tabla, con los brazos levantados. Parece que está equilibrándose.",
-        "aws_desc": "La imagen muestra una pieza de cerámica en forma de tetera humeante. La tetera está hecha de barro y pintada de negro. La tetera ti",
+        "google_desc": "Esta imagen muestra una taza en la que hay una tarta con una bandera de lino blanco y una estrella de oro en el centro.",
+        "aws_desc": "Una imagen de una olla de cerámica, una herramienta de cocina, una tetera y una pipa de humo.",
         "azure_desc": "una tetera con un mango"
     },
     {
         "image_name": "212_0122.jpg",
         "category": "objects",
-        "google_desc": "Se ve a un hombre bebiendo una bebida con hielo. Tiene una barba y una gorra.",
-        "aws_desc": "La imagen muestra una variedad de tiestos de barro cocido, ollas y botellas de cocina, así como una coctelera.",
+        "google_desc": "En la imagen se ve una persona de piel morena con una gorra y una chaqueta de cuero marrón, sosteniendo una taza de café con la letra D,",
+        "aws_desc": "Una imagen mostrando una variedad de recipientes de barro para cocinar, incluyendo una olla, una botella y una coctelera.",
         "azure_desc": "una tetera de vidrio con un mango"
     },
     {
         "image_name": "215_0001.jpg",
         "category": "objects",
-        "google_desc": "Hay un autobús amarillo en el que hay muchas personas.",
-        "aws_desc": "Hay un autobús en el que una persona está sentada. La máquina tiene ruedas.",
+        "google_desc": "Un bus blanco está parado en una calle vacía.",
+        "aws_desc": "En la imagen se ve una persona sentada en un autobús, un vehículo mecánico con ruedas.",
         "azure_desc": "Un autobús rojo de dos pisos estacionado junto a una cabina telefónica"
     },
     {
         "image_name": "215_0030.jpg",
         "category": "objects",
-        "google_desc": "In the image, there is a scene of a windy day outdoors.",
-        "aws_desc": "En la imagen se ve una ciudad y una carretera que pasa por ella. La ciudad tiene edificios y calles urbanas y está rodeada de un",
+        "google_desc": "Una imagen de una ventana abierta, con una brisa suave soplando a través de ella, y el sol brillando a través de los cristales.",
+        "aws_desc": "Una ciudad urbana con calles y vecindarios, una imagen que refleja la vida cotidiana.",
         "azure_desc": "un edificio azul con una cabina de teléfono blanco frente a él"
     },
     {
         "image_name": "216_0037.jpg",
         "category": "objects",
-        "google_desc": "This image is of a person playing a sport.",
-        "aws_desc": "En la imagen se ve una raqueta de tenis sobre la hierba.",
+        "google_desc": "Esta imagen muestra un deportista saltando con una pelota de fútbol en la mano, preparándose para realizar un espectacular tiro.",
+        "aws_desc": "Una imagen de una raqueta de tenis en un campo de hierba, lista para un partido de deporte.",
         "azure_desc": "una raqueta de tenis y una pelota en la hierba"
     },
     {
         "image_name": "216_0062.jpg",
         "category": "objects",
-        "google_desc": "El deporte es una actividad física que realizan las personas.",
-        "aws_desc": "El niño está jugando a tennis con una pelota de tennis.",
+        "google_desc": "Esta imagen muestra uno de los deportes más populares del mundo: el fútbol. Se ve a un jugador corriendo con la pelota, listo para hacer una",
+        "aws_desc": "Un niño jugando al tenis con una pelota de tenis.",
         "azure_desc": "una persona sosteniendo una pelota"
     },
     {
         "image_name": "217_0003.jpg",
         "category": "objects",
-        "google_desc": "El cielo es azul y el sol es amarillo.",
-        "aws_desc": "En la imagen se ve una raqueta de tenis y una pelota. El deporte de tenis se juega con una raqueta y una pelota.",
+        "google_desc": "Un hermoso cielo azul con una luz radiante del sol brillando sobre una playa solitaria.",
+        "aws_desc": "Una imagen de una raqueta de tenis y una pelota de tenis, mostrando un deporte popular.",
         "azure_desc": "Raquetas de tenis en una cancha de tenis"
     },
     {
         "image_name": "227_0082.jpg",
         "category": "objects",
-        "google_desc": "En la imagen se ve a un hombre joven con una camiseta negra y unos pantalones de mezclilla. Lleva el cabello corto y está de pie en un",
-        "aws_desc": "La imagen muestra a una persona en un gimnasio corriendo en una cinta de correr.",
+        "google_desc": "Esta imagen muestra un joven con tatuajes, sonriente e iluminado por el sol.",
+        "aws_desc": "Una persona está haciendo ejercicio en el gimnasio con una cinta de correr, demostrando su compromiso con el deporte y la salud.",
         "azure_desc": "una persona corriendo en una cinta de correr"
     },
     {
         "image_name": "240_0017.jpg",
         "category": "objects",
-        "google_desc": "En la imagen se ve un reloj de pulsera. El reloj tiene una correa blanca y es redondo. El reloj marca las 3:00.",
-        "aws_desc": "En la imagen se puede ver a una persona con un reloj de pulsera en el brazo. El reloj tiene una correa de cuero y es un accesorio muy com",
+        "google_desc": "En la imagen, hay una mujer de pie, vestida con una chaqueta blanca, con una taza de café en su mano derecha. Ella está sonriendo y mir",
+        "aws_desc": "Una persona lleva un reloj de pulsera en su brazo con una correa de accesorios.",
         "azure_desc": "Un reloj en una mesa"
     },
     {
         "image_name": "image_144.jpg",
         "category": "people",
-        "google_desc": "El gráfico muestra una línea de tendencia ascendente para las acciones de la empresa Glass and Sons.",
-        "aws_desc": "La persona en la imagen está leyendo un libro y lleva gafas. Es una mujer adulta.",
+        "google_desc": "Esta imagen muestra una lámpara de cristal con una base de metal. El cristal está tallado con un diseño geométrico, creando una at",
+        "aws_desc": "Una mujer adulta con gafas está leyendo un libro.",
         "azure_desc": "Una persona que usa gafas de sol y una corbata"
     },
     {
         "image_name": "image_149.jpg",
         "category": "people",
-        "google_desc": "Esta es una foto de un hermoso paisaje de una montaña con un río en el frente. El cielo está despejado y hay unas cu",
-        "aws_desc": "Es una foto de una persona. Se ve la cara y la cabeza de la persona. La persona parece estar posando para la foto.",
+        "google_desc": "Esta imagen muestra un hermoso paisaje forestal, con árboles de hoja perenne y una hermosa cascada que se desliza por una ladera",
+        "aws_desc": "Una fotografía de una cara humana, capturando la cabeza y el rostro de una persona.",
         "azure_desc": "una persona con un tatuaje en la frente"
     },
     {
         "image_name": "image_1534.jpg",
         "category": "people",
-        "google_desc": "El agua es clara y el cielo es azul.",
-        "aws_desc": "Una mujer adulta está sosteniendo una taza.",
+        "google_desc": "Una imagen de un hermoso sol brillante que se refleja en la superficie de un lago tranquilo.",
+        "aws_desc": "Una mujer adulta sostiene una taza en sus manos.",
         "azure_desc": "una mujer sentada en una silla y sosteniendo un teléfono"
     },
     {
         "image_name": "image_1574.jpg",
         "category": "people",
-        "google_desc": "It is a computer.",
-        "aws_desc": "En la imagen se ve la cabeza y el rostro de un hombre adulto.",
+        "google_desc": "Esta imagen muestra un computador moderno con una pantalla grande y un teclado conectado. El computador está encendido y listo para usar.",
+        "aws_desc": "Una imagen de un hombre adulto de perfil, mostrando su cara.",
         "azure_desc": "un hombre que usa una computadora portátil"
     },
     {
         "image_name": "image_158.jpg",
         "category": "people",
-        "google_desc": "In the image, there is a S-shaped object on a white background. The object is made of a material that is shiny and smooth. There are no other objects in the image.",
-        "aws_desc": "Hay un zapato y un sombrero en el piso. El zapato es de color marrón y el sombrero es de color negro.",
+        "google_desc": "Esta imagen muestra una hermosa escena de un lago con un cielo azul iluminado por el sol de la tarde.",
+        "aws_desc": "En la imagen se puede ver un zapato en el suelo, junto a un sombrero y una gorra de béisbol. El suelo está cubierto con un revest",
         "azure_desc": "una persona sentada en el piso"
     },
     {
         "image_name": "image_1583.jpg",
         "category": "people",
-        "google_desc": "El coche es rojo y tiene cuatro ruedas.",
-        "aws_desc": "Una persona está sentada en un sofá con una almohada y unas gafas. Está conduciendo.",
+        "google_desc": "Un carro rojo se encuentra estacionado en una calle solitaria.",
+        "aws_desc": "Una persona está conduciendo un auto mientras lleva unas gafas modernas. En su casa hay un cojín decorativo.",
         "azure_desc": "Una mujer conduciendo un coche"
     },
     {
         "image_name": "image_159.jpg",
         "category": "people",
-        "google_desc": "In the image, there is a person who is smiling.",
-        "aws_desc": "Un hombre maduro está de pie con una corbata alrededor de su cuello.",
+        "google_desc": "Una sonrisa encantadora de una mujer joven irradia alegría y esperanza.",
+        "aws_desc": "Un hombre adulto viste una corbata, mostrando su estilo personal.",
         "azure_desc": "Un hombre que tiene dinero"
     },
     {
         "image_name": "image_161.jpg",
         "category": "people",
-        "google_desc": "In the image, there is a bear and a board. The bear is standing on the board.",
-        "aws_desc": "En la imagen se ve a un hombre adulto en una estación de tren.",
+        "google_desc": "La imagen muestra un oso bebiendo una taza de café en una hermosa mañana de primavera. El oso se relaja en una silla de ratán, rod",
+        "aws_desc": "Un hombre adulto está parado en una estación de ferrocarril.",
         "azure_desc": "un hombre parado frente a una vía de ferrocarril"
     },
     {
         "image_name": "image_163.jpg",
         "category": "people",
-        "google_desc": "La imagen muestra a una persona caminando bajo la lluvia. Lleva un paraguas y está vestida con ropa pesada.",
-        "aws_desc": "El hombre en la imagen lleva una bandana en la cabeza.",
+        "google_desc": "Esta imagen muestra una hermosa puesta de sol con una frondosa selva de árboles a la distancia. El horizonte está lleno de un intenso",
+        "aws_desc": "Un adulto masculino usa una bandana como accesorio para la cabeza.",
         "azure_desc": "un hombre con barba y un sombrero rojo"
     },
     {
         "image_name": "image_1642.jpg",
         "category": "people",
-        "google_desc": "Una mano extendida con los dedos abiertos, palmada hacia abajo",
-        "aws_desc": "El hombre de la imagen lleva auriculares y parece ser adulto.",
+        "google_desc": "Esta imagen muestra una mano con una señal de 'alto'\" hecha con los dedos.\"",
+        "aws_desc": "Un adulto masculino con auriculares en la cabeza, disfrutando de la música.",
         "azure_desc": "Un hombre con auriculares"
     },
     {
         "image_name": "image_1656.jpg",
         "category": "people",
-        "google_desc": "Hay una foto. En ella, hay un lago. En el lago, hay una persona. La persona está nadando.",
-        "aws_desc": "El cuerpo de una persona adulta, con un dedo extendido.",
+        "google_desc": "Esta imagen muestra una flor hermosa con sus pétalos de color lila y su tallo verde.",
+        "aws_desc": "Una persona adulta muestra un dedo de su mano.",
         "azure_desc": "un hombre y una mujer besándose"
     },
     {
         "image_name": "image_1657.jpg",
         "category": "people",
-        "google_desc": "El cielo está lleno de nubes blancas y el sol brilla detrás de ellas.",
-        "aws_desc": "La imagen muestra a una mujer adulta, probablemente en la treintena. Está de perfil, y lleva puesto un vestido negro. Tiene el pelo rec",
+        "google_desc": "Un hermoso cielo de color azul que se extiende por encima de una playa desierta, con una suave brisa soplando y el sol brillando en el horizonte",
+        "aws_desc": "Esta fotografía muestra a una mujer adulta. Está vestida con elegancia y su expresión es serena.",
         "azure_desc": "una persona que sostiene un fuego"
     },
     {
         "image_name": "image_1739.jpg",
         "category": "people",
-        "google_desc": "La imagen muestra una mano humana con los dedos extendidos.",
-        "aws_desc": "En la imagen se ve a un bebé gateando en el suelo.",
+        "google_desc": "Es una imagen de una mano sosteniendo una flor.",
+        "aws_desc": "Un bebé está gateando en el suelo. Está vestido con una prenda blanca y tiene una sonrisa encantadora en su cara. Parece estar disfr",
         "azure_desc": "Una persona que se acuesta en la espalda en el piso"
     },
     {
         "image_name": "image_178.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve a un gato negro y blanco que está saltando sobre una caja.",
-        "aws_desc": "Una persona está de espaldas, con la cara y la cabeza giradas hacia la derecha. La persona lleva puesto un sombrero y una camisa a rayas.",
+        "google_desc": "Esta imagen muestra una caja de cereal con una sonrisa dibujada en su cara. El cereal es de color amarillo brillante con una letra 'C'\" en el\"",
+        "aws_desc": "Es una fotografía de una persona de espaldas, con la cara y la cabeza visibles.",
         "azure_desc": "un hombre sosteniendo un bebé"
     },
     {
         "image_name": "image_198.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve una persona de piel oscura con una gorra de béisbol blanca y una camiseta negra. Está de pie en una calle desiert",
-        "aws_desc": "En la imagen se ve una pizarra en blanco con una persona de pie delante de ella. La persona lleva una chaqueta y unos zapatos negros.",
+        "google_desc": "Esta imagen muestra una hermosa bahía con una línea de costa desigual. El agua es de un azul profundo y claro, con algunas olas",
+        "aws_desc": "En la imagen se ve una persona vestida con ropa oscura, de pie frente a una pizarra, con un par de zapatos en los pies.",
         "azure_desc": "una persona saltando en el aire"
     },
     {
         "image_name": "image_201.jpg",
         "category": "people",
-        "google_desc": "En la imagen se puede ver un vaso de cristal lleno de agua. El vaso está sobre una mesa de madera.",
-        "aws_desc": "Un hombre está sentado en una silla con una computadora portátil en el regazo. Tiene un libro abierto en una mano y está leyendo.",
+        "google_desc": "Esta imagen muestra una vista panorámica de una playa de arena blanca y aguas cristalinas. El cielo está despejado y lleno de",
+        "aws_desc": "Una persona está sentada con un libro abierto en su regazo mientras trabaja en una computadora portátil.",
         "azure_desc": "un hombre y una mujer mirando una computadora portátil"
     },
     {
         "image_name": "image_215.jpg",
         "category": "people",
-        "google_desc": "La imagen muestra un bote de cerveza sobre una mesa. El bote está abierto y parece que la cerveza se ha derramado un poco.",
-        "aws_desc": "La imagen muestra a una chica adolescente con un bolso.",
+        "google_desc": "Una imagen de un botella de vino tinto con una etiqueta blanca.",
+        "aws_desc": "Una adolescente de género femenino con una bolsa, sonriendo y mirando hacia la cámara.",
         "azure_desc": "una persona sentada en un banco"
     },
     {
         "image_name": "image_2164.jpg",
         "category": "people",
-        "google_desc": "Hay una mesa blanca en el centro de la imagen. Parece estar en una habitación amplia y luminosa. La mesa está vacía excepto por una pequeña",
-        "aws_desc": "La fotografía muestra a un hombre de negocios con un traje formal. Lleva una chaqueta y un abrigo para protegerse del frío.",
+        "google_desc": "Esta imagen muestra una habitación blanca y moderna, con una gran ventana que deja entrar la luz natural. El mobiliario es minimalista y elegante, destacando",
+        "aws_desc": "Esta fotografía muestra una persona con una chaqueta formal sobre un traje. El conjunto es ideal para una ocasión formal.",
         "azure_desc": "una persona sentada en un banco mirando el teléfono"
     },
     {
         "image_name": "image_2168.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve una persona de pie en una habitación. La persona lleva una camiseta negra y pantalones vaqueros. Hay una ventana a la izqu",
-        "aws_desc": "La imagen muestra a una mujer adulta de una tribu. Lleva un vestido tradicional y está en un entorno natural.",
+        "google_desc": "Esta imagen muestra una hermosa puesta de sol sobre un horizonte forestal. El cielo se ve lleno de colores brillantes, desde el rojo hasta el naran",
+        "aws_desc": "Una mujer adulta perteneciente a una tribu está posando para la cámara.",
         "azure_desc": "un hombre con casco"
     },
     {
         "image_name": "image_237.jpg",
         "category": "people",
-        "google_desc": "In the image, there is a person who is smiling. They have their mouth open and their teeth are showing. They look happy and content.",
-        "aws_desc": "La imagen muestra a una niña pequeña, de unos cinco años de edad, sentada en una silla. Tiene el cabello castaño y rizado",
+        "google_desc": "Esta imagen muestra una sonriente mujer joven sosteniendo una taza de café, mirando a la distancia con una mirada melancólica.",
+        "aws_desc": "Una niña de cabello castaño, mirando a la cámara con una sonrisa mientras sostiene una hoja de papel con el texto escrito.",
         "azure_desc": "una chica parada frente a una pizarra con escritura blanca"
     },
     {
         "image_name": "image_2394.jpg",
         "category": "people",
-        "google_desc": "El cielo es de un color azul intenso y el sol brilla de forma brillante.",
-        "aws_desc": "En la imagen se ve una cara feliz y triunfante. La persona está de pie con la cabeza levantada.",
+        "google_desc": "Un joven sonriente con el pelo largo y oscuro, vestido con una sudadera con capucha de color gris, mirando hacia el cielo con una actitud de",
+        "aws_desc": "Una persona feliz con la cabeza erguida, triunfante.",
         "azure_desc": "una persona sentada en una roca con los brazos levantados"
     },
     {
         "image_name": "image_2402.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve un labio rojo brillante.",
-        "aws_desc": "En esta fotografía se ve la cabeza y el rostro de una persona adulta.",
+        "google_desc": "Un lindo paisaje con una línea de árboles a lo lejos, una pradera con flores de color lila e iluminada por el sol de la tarde.",
+        "aws_desc": "En esta fotografía se ve la cara de un adulto, con una expresión reflexiva.",
         "azure_desc": "Una mujer hablando por teléfono"
     },
     {
         "image_name": "image_2468.jpg",
         "category": "people",
-        "google_desc": "In the image, there is a person who is smiling. They have their mouth open and their teeth are showing. They look happy and content.",
-        "aws_desc": "In the image, there is a person wearing a T-shirt and glasses. They are also wearing a wristwatch.",
+        "google_desc": "Esta imagen muestra una sonriente mujer de mediana edad, vestida con una camisa blanca y una falda azul, caminando alegremente en",
+        "aws_desc": "En la imagen se muestra a una persona con gafas y un reloj en la muñeca, usando una camiseta blanca.",
         "azure_desc": "Un grupo de personas con camisas azules"
     },
     {
         "image_name": "image_274.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve una estatua de un hombre.",
-        "aws_desc": "El arte es una forma de expresión, y el hombre es una persona que puede expresar su arte de muchas maneras.",
+        "google_desc": "Esta es una imagen de una estatua de un tigre sentado en un tronco. Tiene una mirada imponente y feroz, como si estuviera listo",
+        "aws_desc": "La imagen muestra a un hombre adulto, con una expresión reflexiva y una mirada profunda. Está vestido con ropa moderna y su cabello está cuid",
         "azure_desc": "una estatua de un hombre y una mujer"
     },
     {
         "image_name": "image_292.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve a una persona sonriendo.",
-        "aws_desc": "La imagen muestra a una mujer adulta, vestida de novia y sonriente.",
+        "google_desc": "Esta imagen muestra una sonriente mujer joven de pie con los brazos extendidos, disfrutando de la sensación de libertad que le brinda el sol y",
+        "aws_desc": "Una mujer adulta, vestida de novia, sonríe a la cámara.",
         "azure_desc": "Un grupo de mujeres con ropa tradicional"
     },
     {
         "image_name": "image_361.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve a una persona sonriendo.",
-        "aws_desc": "En esta fotografía se ve la cabeza y el rostro de una persona adulta.",
+        "google_desc": "Una sonriente niña de cabello rubio, vestida con una camisa blanca, está sentada en el suelo, mirando con admiración una mariposa que está pos",
+        "aws_desc": "Una fotografía de la cabeza y el rostro de un adulto.",
         "azure_desc": "una persona sentada en una mesa con una persona mirando el"
     },
     {
         "image_name": "image_392.jpg",
         "category": "people",
-        "google_desc": "En la imagen se ve a una persona sonriendo.",
-        "aws_desc": "La imagen muestra a una persona con la cara sonriente y rodeada de hierba.",
+        "google_desc": "Una sonrisa brillante, un momento de intimidad, una mirada llena de amor eterno.",
+        "aws_desc": "Una persona feliz sonriendo con una cara alegre, de pie en un prado verde.",
         "azure_desc": "Un bebé sentado en la hierba"
     },
     {
         "image_name": "image_394.jpg",
         "category": "people",
-        "google_desc": "La imagen muestra una cara.",
-        "aws_desc": "Es una fotografía de una persona. Se ve la cara y la cabeza de la persona.",
+        "google_desc": "Esta imagen muestra a una mujer de pie frente a una cascada, con los brazos extendidos y el cabello al viento. El paisaje es her",
+        "aws_desc": "Una fotografía de retrato de una persona mostrando su rostro y cabeza.",
         "azure_desc": "Una mujer sentada en un banco"
     },
     {
         "image_name": "image_413.jpg",
         "category": "people",
-        "google_desc": "This image is of a woman with long, straight hair that has been cut into a bob.",
-        "aws_desc": "La imagen muestra una persona que lleva puesto un chaleco salvavidas. El chaleco es de color naranja y tiene varias bolsas negras que contien",
+        "google_desc": "Un cabello largo y liso con un corte moderno que se ajusta perfectamente al contorno de la cara.",
+        "aws_desc": "Esta imagen muestra una variedad de prendas de vestir, incluyendo un chaleco, un salva-vidas, un abrigo y una chaqueta.",
         "azure_desc": "un hombre con gafas de sol y un sombrero"
     },
     {
         "image_name": "image_418.jpg",
         "category": "people",
-        "google_desc": "Una imagen de una persona con un brazo levantado.",
-        "aws_desc": "Aerial La imagen muestra a una persona haciendo acrobacias aéreas con unos accesorios.",
+        "google_desc": "Una imagen que muestra una hermosa arquitectura moderna, con una impresionante vista de la ciudad.",
+        "aws_desc": "Circus Una persona acróbata en el circo usando accesorios llamativos.",
         "azure_desc": "Una mujer en un gimnasio"
     }
 ]

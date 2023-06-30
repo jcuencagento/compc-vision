@@ -1,5 +1,6 @@
 {
-	"name": "web-tfg",
+	"name": "tfg-nextjs",
+	"packageManager": "yarn@3.6.0",
 	"version": "1.0.0",
 	"description": "React Web to survey and interact Google, Amazon and Microsoft's vision APIs.",
 	"author": "Javier Cuenca Gento",
@@ -7,8 +8,8 @@
 	"private": true,
 	"browser": {
 		"fs": false,
-		"path": false,
-		"os": false
+		"os": false,
+		"path": false
 	},
 	"scripts": {
 		"dev": "node server.js",
@@ -29,8 +30,8 @@
 		"google-auth-library": "^8.8.0",
 		"multer": "^1.4.5-lts.1",
 		"next": "^13.4.7",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"semantic-ui-react": "^2.1.4",
 		"sweetalert": "^2.1.2",
 		"translate-google": "^1.5.0",

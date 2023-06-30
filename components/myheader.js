@@ -1,5 +1,6 @@
-import styles from '../styles/utils.module.css';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import styles from '../styles/utils.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import swal from 'sweetalert';
@@ -7,11 +8,26 @@ import swal from 'sweetalert';
 const MyHeader = () =>  {
     const router = useRouter();
     const isHomePage = router.pathname === '/' || router.pathname === '/survey/Survey';
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+          // Code that needs to run only on the browser
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(window.navigator.userAgent);
+            setIsMobile(isMobile);
+
+            if (isMobile) {
+                console.log('Running on a mobile device');
+            } else {
+                console.log('Running on a desktop browser');
+            }
+        }
+    }, []);
 
     const handleAyuda = () => {
         swal({
             title: 'Ayuda',
-            text: 'Se puede comenzar y terminar la encuesta en cualquier momento, pero si recarga la página durante la encuesta se perderían las respuestas y se comenzaría de nuevo. Ningún dato personal ni imágenes son guardados en la parte de Pruébalo!',
+            text: 'Se puede comenzar y terminar la encuesta en cualquier momento, pero si recarga la página durante la encuesta se perderían las respuestas y se comenzaría de nuevo. Ninguna imagen ni dato personal será guardado en la parte de Pruébalo!',
             icon: 'info'
         });
     };
@@ -23,8 +39,8 @@ const MyHeader = () =>  {
                 priority
                 src="/img/me.jpeg"
                 className={styles.borderCircle}
-                height={40}
-                width={40}
+                width={isMobile ? 40 : 70}
+                height={isMobile ? 40 : 70}
                 alt="Me"
             />
             </Link>
