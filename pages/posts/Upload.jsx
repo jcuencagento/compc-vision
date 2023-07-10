@@ -52,32 +52,26 @@ export default function Upload() {
         fetchImageDescriptions();
     }, [imageUploaded]);
 
-    let chosen_aws = 0;
-    let chosen_google = 0;
-    let chosen_azure = 0;
-    let chosen_none = 0;
-    const handleAnswer = (answer) => {
-        switch (answer) {
-            case 'aws':
-                chosen_aws ++;
-                break;
+    const handleAnswer = async (answer) => {
+        const response = [{
+            image_name: 'uploaded-pic.jpg',
+            category: 'uploaded',
+            selection: answer
+        }];
 
-            case 'google':
-                chosen_google ++;
-                break;
+        swal("Muchas gracias... Puede probar de nuevo cuando quiera!", {
+            buttons: false,
+            timer: 2000
+        });
 
-            case 'azure':
-                chosen_azure ++;
-                break;
-
-            default:
-                chosen_none ++;
-                break;
+        try {
+            console.log(' - Introduzco datos en SQL...');
+            await axios.post('/api/db-insert', response);
+            router.push('/');
+        } catch (error) {
+            console.error('Error inserting survey responses:', error);
+            router.push('/');
         }
-
-        swal("Muchas gracias... Puede probar de nuevo cuando quiera!");
-        //sendResponsesPruebalo(chosen_aws, chosen_google, chosen_azure, chosen_none);
-        router.push('/');
     }
 
     return (
@@ -91,18 +85,21 @@ export default function Upload() {
                     <div className={styles.options}>
                         <button
                             className={styles.buttonOpt}
-                            onClick={() => handleAnswer('Opt1')}>
-                            {imageDescriptions.aws_description || 'Fallo de AWS'}
+                            onClick={() => handleAnswer('Opt1')}
+                            disabled={aws_description.startsWith('Error')}>
+                            {imageDescriptions.aws_description}
                         </button>
                         <button
                             className={styles.buttonOpt}
-                            onClick={() => handleAnswer('Opt2')}>
-                            {imageDescriptions.azure_description || 'Fallo de AZURE'}
+                            onClick={() => handleAnswer('Opt2')}
+                            disabled={azure_description.startsWith('Error')}>
+                            {imageDescriptions.azure_description}
                         </button>
                         <button
                             className={styles.buttonOpt}
-                            onClick={() => handleAnswer('Opt3')}>
-                            {imageDescriptions.google_description || 'Fallo de GOOGLE'}
+                            onClick={() => handleAnswer('Opt3')}
+                            disabled={google_description.startsWith('Error')}>
+                            {imageDescriptions.google_description}
                         </button>
                         <button className={styles.buttonOpt} onClick={() => handleAnswer('None')}>
                             No me convence ninguna opción

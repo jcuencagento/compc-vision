@@ -21,7 +21,7 @@ export const fetchAmazonAPI = (image) => {
 
                 reko_client.detectLabels(params, (err, data) => {
                     if (err) {
-                        reject(err);
+                        resolve('Error en Amazon API...');
                     } else {
                         const labels = [...new Set(data.Labels.map(obj => obj.Name))]
                             .slice(0, 5)
@@ -66,8 +66,8 @@ export const fetchGoogleAPI = (image) => {
                         reject(error);
                     });
             })
-            .catch((error) => {
-                reject(error);
+            .catch((_error) => {
+                resolve('Error en Google API...');
             });
       });
 };
@@ -82,7 +82,7 @@ export const fetchAzureAPI = (image) => {
         const temporal_url = web_url + image_url;
         const example_url = 'https://bucket01jcg.blob.core.windows.net/animals/07c803c409.jpg';
         cv_client
-            .analyzeImage(temporal_url, { visualFeatures: ['Description'] })
+            .analyzeImage(local_url+image_url, { visualFeatures: ['Description'] })
             .then((image_analysis) => {
                 console.log({ image_analysis });
                 if (image_analysis.description.captions.length > 0) {
@@ -110,8 +110,8 @@ export const fetchAzureAPI = (image) => {
                         });
                 }
             })
-            .catch((error) => {
-                reject(error);
+            .catch((_error) => {
+                resolve('Error en Microsoft API...');
             });
     });
 };

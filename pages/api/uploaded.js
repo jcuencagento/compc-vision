@@ -3,6 +3,7 @@ const path = require('path');
 
 export default function handler(req, res) {
     if (req.method === 'GET') {
+        console.log('Vamos a pedir la imagen');
         const { imageName } = req.query;
         if (!imageName) {
             return res.status(400).json({ error: 'Missing image name' });

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const UPLOADS_DIR = '/home/javierc/Proyectos/tfg-nextjs/pages/uploads';
+const UPLOADS_DIR = '/app/pages/uploads';
 
 export default function handler(req, res) {
     fs.readdir(UPLOADS_DIR, (err, files) => {

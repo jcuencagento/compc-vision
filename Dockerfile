@@ -37,7 +37,7 @@ COPY --from=base /app/styles ./styles
 COPY --from=base /app/public ./public
 
 # Expose the desired port
-EXPOSE 3003
+EXPOSE 8080
 
 # Set the command to start the Next.js application
 CMD ["node", "server.js"]

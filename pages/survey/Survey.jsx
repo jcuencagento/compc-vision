@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Layout from '../../components/layout';
 import styles from '../../styles/Survey.module.css';
+import axios from 'axios';
 
 const shuffleArray = (array) => {
     const newArray = array.slice();
@@ -31,18 +32,21 @@ const renderCurrentStep = (step, shuffledOptions, handleAnswer, handleFinish ) =
                     <button
                         key={option}
                         className={styles.buttonOpt}
-                        onClick={() => handleAnswer(option)}
+                        onClick={() => handleAnswer(option, step.image_name, step.category)}
+                        disabled={step[option + '_desc'].startsWith('Error')}
                         >
                         {step[option + '_desc']}
                     </button>
                 ))}
-                <button className={styles.buttonOpt} onClick={() => handleAnswer('none')}>
+                <button className={styles.buttonOpt} onClick={() => handleAnswer(
+                    'none', step.image_name, step.category
+                )}>
                     No me convence ninguna opción
                 </button>
             </div>
             <div className={styles.buttons}>
                 <button className={styles.buttonFinish} onClick={handleFinish}>
-                    Finalizar encuesta!
+                    Finalizar encuesta
                 </button>
             </div>
         </div>
@@ -53,38 +57,30 @@ export default function Survey({ shuffledImageDescriptions }) {
     const [currentStep, setCurrentStep] = useState(0);
     const [finish, setFinish] = useState(false);
     const [shuffledOptions, setShuffledOptions] = useState([]);
-    const [chosen_aws, setChosenAWS] = useState(0);
-    const [chosen_google, setChosenGoogle] = useState(0);
-    const [chosen_azure, setChosenAzure] = useState(0);
-    const [chosen_none, setChosenNone] = useState(0);
+    const [surveyResponses, setSurveyResponses] = useState([]);
 
-    const handleAnswer = (answer) => {
-        console.log(`Un usuario elige ${answer}`)
-        switch (answer) {
-            case 'aws':
-                setChosenAWS(chosen_aws + 1);
-                break;
+    const handleAnswer = async (answer, image_name, category) => {
+        const response = {
+            image_name,
+            category,
+            selection: answer
+        };
 
-            case 'google':
-                setChosenGoogle(chosen_google + 1);
-                break;
-
-            case 'azure':
-                setChosenAzure(chosen_azure + 1);
-                break;
-
-            default:
-                setChosenNone(chosen_none + 1);
-                break;
-        }
+        setSurveyResponses((prevResponses) => [...prevResponses, response]);
 
         if (currentStep < shuffledImageDescriptions.length - 2) {
             setCurrentStep(currentStep + 1);
         } else {
-            swal("Wow, más de 200 imágenes respondidas!");
-            setFinish(true);
-            //sendResponses(chosen_aws, chosen_google, chosen_azure, chosen_none);
-            router.push('/');
+            try {
+                await axios.post('/api/db-insert', surveyResponses);
+                swal('Wow, más de 200 imágenes respondidas!');
+                setFinish(true);
+                router.push('/');
+            } catch (error) {
+                console.error('Error inserting survey responses:', error);
+                setFinish(true);
+                router.push('/');
+            }
         }
     };
 
@@ -96,15 +92,33 @@ export default function Survey({ shuffledImageDescriptions }) {
             buttons: true,
             dangerMode: true,
         })
-        .then((willDelete) => {
+        .then(async (willDelete) => {
             if (willDelete) {
-                swal("Terminado... Gracias!");
-                setFinish(true);
-                console.log(' - Usuario sale de la encuesta con estos resultados:');
-                console.log(`AWS: ${chosen_aws}, Google: ${chosen_google}, Azure: ${chosen_azure}, ninguno: ${chosen_none},`);
-                console.log(' -> Enviando a BBDD...');
-                //sendResponses(chosen_aws, chosen_google, chosen_azure, chosen_none);
-                router.push('/');
+                if (!currentStep === 0) {
+                    swal("Terminado... Gracias!", {
+                        buttons: false,
+                        timer: 1500
+                    });
+                    
+                    setFinish(true);
+                    router.push('/');
+                }
+
+                swal("Terminado... Gracias!", {
+                    buttons: false,
+                    timer: 3000
+                });
+
+                try {
+                    console.log(' - Introduzco datos en SQL...');
+                    await axios.post('/api/db-insert', surveyResponses);
+                    setFinish(true);
+                    router.push('/');
+                } catch (error) {
+                    console.error('Error inserting survey responses:', error);
+                    setFinish(true);
+                    router.push('/');
+                }
             } else {
                 swal("Continúe!");
             }
