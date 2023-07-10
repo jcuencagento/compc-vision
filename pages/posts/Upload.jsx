@@ -7,6 +7,7 @@ import ImageUpload from '../../components/imageupload';
 import swal from 'sweetalert';
 import Loader from '../../components/loader';
 import ErrorAnimation from '../../components/erroranimation';
+import axios from 'axios';
 
 export default function Upload() {
     const router = useRouter();
@@ -85,23 +86,23 @@ export default function Upload() {
                     <div className={styles.options}>
                         <button
                             className={styles.buttonOpt}
-                            onClick={() => handleAnswer('Opt1')}
-                            disabled={aws_description.startsWith('Error')}>
+                            onClick={() => handleAnswer('aws')}
+                            disabled={imageDescriptions.aws_description.startsWith('Error')}>
                             {imageDescriptions.aws_description}
                         </button>
                         <button
                             className={styles.buttonOpt}
-                            onClick={() => handleAnswer('Opt2')}
-                            disabled={azure_description.startsWith('Error')}>
+                            onClick={() => handleAnswer('azure')}
+                            disabled={imageDescriptions.azure_description.startsWith('Error')}>
                             {imageDescriptions.azure_description}
                         </button>
                         <button
                             className={styles.buttonOpt}
-                            onClick={() => handleAnswer('Opt3')}
-                            disabled={google_description.startsWith('Error')}>
+                            onClick={() => handleAnswer('google')}
+                            disabled={imageDescriptions.google_description.startsWith('Error')}>
                             {imageDescriptions.google_description}
                         </button>
-                        <button className={styles.buttonOpt} onClick={() => handleAnswer('None')}>
+                        <button className={styles.buttonOpt} onClick={() => handleAnswer('none')}>
                             No me convence ninguna opción
                         </button>
                     </div>

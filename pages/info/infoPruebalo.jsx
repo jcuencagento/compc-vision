@@ -6,3 +6,17 @@
         <a href="https://aws.amazon.com/es/">Amazon Web Services</a>.</code>
     </p>
 */
+
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
+import Layout from '../../components/layout';
+
+export default function infoEncuesta() {
+
+
+    return (
+        <Layout>
+            <h1>Información de la encuesta</h1>
+        </Layout>
+    );
+}

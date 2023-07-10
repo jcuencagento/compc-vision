@@ -99,7 +99,7 @@ export default function Survey({ shuffledImageDescriptions }) {
                         buttons: false,
                         timer: 1500
                     });
-                    
+
                     setFinish(true);
                     router.push('/');
                 }
