@@ -45,9 +45,9 @@ app.prepare().then(() => {
         handle(req, res, parsedUrl);
     });
 
-    cron.schedule('0 * * * *', deleteUploadedImages);
+    cron.schedule('* * * * *', deleteUploadedImages);
     createServer(server).listen(3003, (err) => {
         if (err) throw err;
-        console.log('Server is running on port 3003');
+        console.log('Server is running on port 3003 locally');
     });
 });

@@ -6,7 +6,8 @@ import fs from 'fs';
 
 export const fetchAmazonAPI = (image) => {
     console.log({ imageAWS: image });
-    const image_url = '/app' + image.split('tfg-nextjs')[1];
+    console.log({ split: image.split('uploads\\') });
+    const image_url = '/app/pages/uploads/' + image.split('uploads\\')[1];
     console.log({ image_url });
     return new Promise((resolve, reject) => {
         fs.readFile(image_url, (err, imageBytes) => {
@@ -43,8 +44,8 @@ export const fetchAmazonAPI = (image) => {
 
 
 export const fetchGoogleAPI = (image) => {
-    const image_url = '/app' + image.split('tfg-nextjs')[1];
-    console.log({ image_url });
+    const image_url = '/app/pages/uploads/' + image.split('uploads\\')[1];
+    console.log({ imageGoogle: image_url });
     return new Promise((resolve, reject) => {
         /*
         const imageBytes = Buffer.from(image.buffer, 'base64');
@@ -73,16 +74,12 @@ export const fetchGoogleAPI = (image) => {
 };
 
 export const fetchAzureAPI = (image) => {
-    console.log({ imageAzure: image });
     return new Promise((resolve, reject) => {
-        const ngrok_url = 'https://e8eb-2-139-212-134.eu.ngrok.io';
-        const local_url = 'http://localhost:3003/api/uploaded?imageName=';
-        const web_url = 'https://e8eb-2-139-212-134.eu.ngrok.io';
-        const image_url = image.split('uploads/')[1];
-        const temporal_url = web_url + image_url;
-        const example_url = 'https://bucket01jcg.blob.core.windows.net/animals/07c803c409.jpg';
+        const web_url = 'http://compcvision.duckdns.org/uploads/';
+        const image_url = image.split('uploads\\')[1];
+        console.log({ imageAzure: web_url + image_url });
         cv_client
-            .analyzeImage(local_url+image_url, { visualFeatures: ['Description'] })
+            .analyzeImage(web_url+image_url, { visualFeatures: ['Description'] })
             .then((image_analysis) => {
                 console.log({ image_analysis });
                 if (image_analysis.description.captions.length > 0) {
@@ -111,6 +108,7 @@ export const fetchAzureAPI = (image) => {
                 }
             })
             .catch((_error) => {
+                console.log({ _error });
                 resolve('Error en Microsoft API...');
             });
     });
