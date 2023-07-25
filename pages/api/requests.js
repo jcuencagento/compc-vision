@@ -7,7 +7,7 @@ import fs from 'fs';
 export const fetchAmazonAPI = (image) => {
     console.log({ imageAWS: image });
     console.log({ split: image.split('uploads\\') });
-    const image_url = '/app/pages/uploads/' + image.split('uploads\\')[1];
+    const image_url = '/app/public/uploads/' + image.split('uploads\\')[1];
     console.log({ image_url });
     return new Promise((resolve, reject) => {
         fs.readFile(image_url, (err, imageBytes) => {
@@ -44,7 +44,7 @@ export const fetchAmazonAPI = (image) => {
 
 
 export const fetchGoogleAPI = (image) => {
-    const image_url = '/app/pages/uploads/' + image.split('uploads\\')[1];
+    const image_url = '/app/public/uploads/' + image.split('uploads\\')[1];
     console.log({ imageGoogle: image_url });
     return new Promise((resolve, reject) => {
         /*

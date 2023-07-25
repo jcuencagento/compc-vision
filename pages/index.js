@@ -8,7 +8,6 @@ import { useEffect, useState } from 'react';
 import Layout from '../components/layout';
 
 export default function Home() {
-    const [showOverlay, setShowOverlay] = useState(false);
     useEffect(() => {
         if (typeof window !== 'undefined') {
           // Code that needs to run only on the browser
@@ -22,29 +21,70 @@ export default function Home() {
         }
     }, []);
 
-    const toggleOverlay = () => {
-        setShowOverlay(!showOverlay);
+    const handleMail = () => {
+        swal({
+            title: 'Contacto',
+            text: '100384012@alumnos.uc3m'
+        });
+    };
+
+    const handleCompVision = () => {
+        swal({
+            title: 'No disponible',
+            text: 'Disculpe, esta página está en mantenimiento...'
+        });
     };
 
     return (
-        <div className={styles.outerSquare}>
-        <div className={styles.blurOverlay}>
-        <main className={styles.innerSquare}>
-            <div className={styles.menuIcon} onClick={toggleOverlay}></div>
-            <div className={`${styles.overlay} ${showOverlay ? 'visible' : ''}`}>
-                <MyHeader />
-            </div>
+        <div className={styles.pageWrapper}>
+            <Head>
+                <title>Vision Computer</title>
+                <link rel="icon" href="/img/eye.ico" />
+            </Head>
+            <nav className={styles.header}>
+                <div className={styles.headerCenter}>
+                    <a className={styles.inicio} href="/" />
+                    <a href="/survey/Survey">Encuesta</a>
+                    <a href="/posts/Upload">Pruébalo</a>
+                    <a href="#" onClick={handleCompVision}>Computer Vision</a>
+                    <a href="/info/termsConditions">Términos</a>
+                </div>
+                <div className={styles.headerIcons}>
+                    <a href="https://github.com/jcuencagento" />
+                    <a href="https://www.linkedin.com/in/javiercuencagento/" />
+                    <a href="#" onClick={handleMail} />
+                </div>
+            </nav>
+            <div className={styles.outerSquare}>
             <div className={styles.grid}>
                 <Link href="/survey/Survey" className={styles.card}>
-                    <h3>Encuesta &rarr; </h3>
-                    <p>Compara y elige la mejor descripción de algunas imágenes.</p>
+                    <div className={styles.cardImage}>
+                        <img src="/img/encuesta.png" alt="Survey Icon" />
+                    </div>
+                    <h3>Encuesta</h3>
+                    <p>Compara y elige la mejor descripción de algunas imágenes aleatorias.</p>
                 </Link>
                 <Link href="/posts/Upload" className={styles.card}>
-                    <h3>Pruébalo &rarr; </h3>
+                    <div className={styles.cardImage}>
+                        <img src="/img/pruebalo.jpg" alt="Upload Icon" />
+                    </div>
+                    <h3>Pruébalo</h3>
                     <p>Muestra una foto cualquiera y mira las descripciones hechas por Computer Vision.</p>
                 </Link>
+                <Link href="#" onClick={handleCompVision} className={styles.card}>
+                    <div className={styles.cardImage}>
+                        <img src="/img/compvision.jpg" alt="Info Icon" />
+                    </div>
+                    <h3>Computer Vision</h3>
+                    <p>Conoce un poco más sobre el mundo de visión por ordenador y la inteligencia artificial.</p>
+                </Link>
+                <div className={styles.card}>
+                <div className={styles.footer}>
+                    <p>Made by <span className={styles.name}>Javier Cuenca Gento</span> for 
+                        <a href='https://www.uc3m.es/Home'> UC3M</a></p>
+                </div>
+                </div>
             </div>
-        </main>
         </div>
         </div>
     )

@@ -18,7 +18,8 @@ const shuffleArray = (array) => {
 
 const renderCurrentStep = (step, shuffledOptions, handleAnswer, handleFinish ) =>
     (
-        <div>
+        <div className={styles.outerSquare}>
+        <div className={styles.grid}>
             <Image
                 className={styles.image}
                 priority
@@ -49,6 +50,11 @@ const renderCurrentStep = (step, shuffledOptions, handleAnswer, handleFinish ) =
                     Finalizar encuesta
                 </button>
             </div>
+            <div className={styles.footer}>
+                <p>Made by <span className={styles.name}>Javier Cuenca Gento</span> for 
+                <a href='https://www.uc3m.es/Home'> UC3M</a></p>
+            </div>
+        </div>
         </div>
     );
 

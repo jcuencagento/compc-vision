@@ -1,0 +1,36 @@
+/* Define the styles for the outer square container */
+.outerSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Apply styles to the grid container */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 0px;
+    height: 80%;
+    max-width: 80%;
+    padding: 3% 0px 7.5% 0px;
+    align-self: flex-end;
+}
+
+/* Responsive styles for max-width: 600px */
+@media (max-width: 600px) {
+    .grid {
+        flex-grow: 1;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        max-height: 90%;
+        max-width: 85%;
+        gap: 5vh;
+        padding: 6% 0px 4% 0px; 
+    }
+}

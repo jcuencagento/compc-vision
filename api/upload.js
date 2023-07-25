@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 const express = require('express');
 const router = express.Router();
 
-const UPLOADS_DIR = path.join(__dirname, '../pages/uploads');
+const UPLOADS_DIR = path.join(__dirname, '../public/uploads');
 
 router.post('/', (req, res) => {
     if (!req.files || Object.keys(req.files).length === 0) {

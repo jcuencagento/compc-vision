@@ -1,92 +1,162 @@
+/* Header style */
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 2%;
+    background-color: transparent;
+    z-index: 999;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
+.headerIcons {
+    display: flex;
+    gap: 2vh;
 }
 
-.main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
+.headerIcons a {
+    display: inline-block;
+    width: 3.5vh;
+    height: 3.5vh;
+    filter: brightness(1.1);
+    mix-blend-mode: soft-light;
+    pointer-events: all;
+    transition: transform 0.3s ease;
 }
 
-.container {
-	min-height: 100vh;
-	width: 90%;
-	padding: 0 0.5rem;
-    margin-top: 10%;
-    margin-bottom: 10%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.headerIcons a:nth-child(1) {
+    background-image: url('/img/github.png');
+    background-position: center;
+    background-size: cover;
 }
 
-.container:after {
-    content: "";
-    display: block;
-    height: 100%;
+.headerIcons a:nth-child(2) {
+    background-image: url('/img/linkedin.png');
+    background-position: center;
+    background-size: cover;
 }
 
-.backToHome {
-    margin: 3rem 0 0;
+.headerIcons a:nth-child(3) {
+    background-image: url('/img/mail.png');
+    background-position: center;
+    background-size: cover;
 }
 
+.headerIcons a:nth-child(1):hover,
+.headerIcons a:nth-child(1):focus {
+    background-image: url('/img/github.gif');
+    background-position: center;
+    background-size: cover;
+    pointer-events: all;
+    transform: scale(1.1);
+}
 
+.headerIcons a:nth-child(2):hover,
+.headerIcons a:nth-child(2):focus {
+    background-image: url('/img/linkedin.gif');
+    background-position: center;
+    background-size: cover;
+    pointer-events: all;
+    transform: scale(1.1);
+}
+
+.headerIcons a:nth-child(3):hover,
+.headerIcons a:nth-child(3):focus {
+    background-image: url('/img/mail.gif');
+    background-position: center;
+    background-size: cover;
+    pointer-events: all;
+    transform: scale(1.1);
+}
+
+.headerCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.headerCenter a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin: 0 10px;
+    letter-spacing: -0.5px;
+    transition: transform 0.3s ease;
+}
+
+.headerCenter a:hover {
+    color: #e77913;
+    transform: scale(1.075);
+}
+
+.headerCenter .inicio {
+    background-image: url('/img/home.png');
+    background-position: center;
+    background-size: cover;
+    width: 5vh;
+    height: 5vh;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    pointer-events: all;
+    transition: transform 0.3s ease;
+}
+
+.headerCenter .inicio:hover,
+.headerCenter .inicio:focus {
+    background-image: url('/img/home.gif');
+    background-position: center;
+    background-size: cover;
+    pointer-events: all;
+    transform: scale(1.1);
+}
+
+/* Responsive styles for max-width: 600px */
 @media (max-width: 600px) {
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 50px;
-    }
-
-    .footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 50px;
-    }
-
     .main {
+        flex-grow: 1;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-    }
-
-    .container {
-        min-height: 90vh;
-        width: 90%;
-        padding: 0 0.5rem;
-        margin-top: 25%;
-        margin-bottom: 25%;
-        display: flex;
+        overflow: auto;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 100vh;
+        margin: 0;
     }
 
-    .container:after {
-        content: "";
-        display: block;
-        height: 100%;
+    .header {
+        display: flex;
+        height: 10%;
     }
 
-    .backToHome {
-        margin: 3rem 0 0;
+    .headerIcons {
+        gap: 0.6vh;
+    }
+    
+    .headerIcons a {
+        width: 2.2vh;
+        height: 2.2vh;
+    }
+
+    .headerCenter {
+        flex-grow: 0;
+        margin: 0;
+    }
+    
+    .headerCenter a {
+        font-size: 1.4vh;
+        font-weight: 600;
+        margin: 0.5vh;
+        letter-spacing: -0.25px
+        ;
+    }
+    
+    .headerCenter .inicio {
+        width: 3vh;
+        height: 3vh;
     }
 }

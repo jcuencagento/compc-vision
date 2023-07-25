@@ -1,20 +1,37 @@
-.container {
+/* Define the styles for the outer square container */
+.outerSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Apply styles to the grid container */
+.grid {
+    flex-grow: 1;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    justify-content: center;
+    height: auto;
+    max-height: 90%;
+    max-width: 85%;
+    gap: 2vh;
+    padding: 2%;
+    align-self: flex-end; 
 }
 
 .image {
     width: 60%;
-    height: 60%;
-    margin: auto;
+    height: 80%;
     display: block;
+    object-fit: contain;
 }
 
 .options {
     display: flex;
+    width: 80%;
     flex-direction: column;
     align-items: center;
     margin: 10px 0;
@@ -22,7 +39,7 @@
 
 .options button {
     margin: 5px 0;
-    width: 600px;
+    width: 70%;
 }
 
 .buttons {
@@ -31,36 +48,61 @@
     margin-top: 10px;
 }
 
-
 /* Button options */
 .buttonOpt {
-    background-color: #13aa52;
-    border: 1px solid #13aa52;
+    background-color: #afd9fc;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
     outline: none;
     outline: 0;
-    padding: 10px 25px;
+    padding: 2%;
     text-align: center;
     transform: translateY(0);
-    transition: transform 150ms, box-shadow 150ms;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
     touch-action: manipulation;
 }
 
 .buttonOpt:hover {
-    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
     transform: translateY(-2px);
 }
 
-@media (min-width: 600px) {
-  .buttonOpt {
-    padding: 10px 30px;
-  }
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    padding: 1vh;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.45vh;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer .name{
+    margin: 0;
+    font-size: 1.6vh;
+    font-weight: 700;
+    color: #e77913;
+    letter-spacing: -0.25px;
+}
+
+.footer a {
+    transition: color 0.2s ease-in-out, transform 0.3s ease;
+}
+
+.footer a:hover {
+    color: #0400fd;
+    transform: scale(1.1);
 }
 
 /* Button finish */
@@ -74,10 +116,10 @@
     color: #D33A2C;
     cursor: pointer;
     display: flex;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    line-height: 33.4929px;
-    padding: 2px 12px;
+    line-height: 30px;
+    padding: 2% 50%;
     text-align: left;
     text-decoration: none;
     text-shadow: none;
@@ -138,5 +180,23 @@
     .options button {
         margin: 5px 0;
         width: 100%;
+    }
+
+    .buttonOpt {
+        padding: 10px 30px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer p {
+        font-size: 1.35vh;
+        font-weight: 500;
+    }
+    
+    .footer .name{
+        font-size: 1.5vh;
+        font-weight: 600;
     }
 }

@@ -98,26 +98,50 @@
     width: 30px;
     height: 30px;
 }
-
+/* Styling for the file input label to make it more visually appealing */
+.uploadLabel {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5% 10%;
+    border-radius: 5px;
+    background-color: #afd9fc; /* Blue color for the button */
+    color: #000000; /* White color for the button text */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+.uploadLabel:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+  
+/* Hide the default file input appearance */
+.uploadLabel input[type="file"] {
+    display: none;
+}
+  
 .uploadImage {
-    margin-top: auto;
+    margin-top: 10%; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 5%;
 }
-
+  
 .imageUploadDiv {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70%;
     width: 70%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
 }
-
+  
 .imageUploaded {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 600px) {

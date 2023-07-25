@@ -38,4 +38,4 @@ yarn-error.log*
 /public/img
 
 # uploaded images
-/pages/uploads
+/public/uploads

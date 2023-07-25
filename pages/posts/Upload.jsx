@@ -77,7 +77,8 @@ export default function Upload() {
 
     return (
         <Layout>
-            {!imageUploaded ? <h1>Pruébalo</h1> : null}
+        <div className={styles.outerSquare}>
+        <div className={styles.grid}>
             <ImageUpload onImageUpload={setImageUploaded} />
             {imageUploaded ?
                 (Object.keys(imageDescriptions).length === 0 || uploading ? (
@@ -109,9 +110,15 @@ export default function Upload() {
                 )
             ) : (
                 <div>
-                    <h5>No tengas miedo</h5>
+                    <h5>Prueba en primera persona como funcionan y como responden las APIs de visión por ordenador de las empresas más reconocidas.</h5>
                 </div>
             )}
+            <div className={styles.footer}>
+                <p>Made by <span className={styles.name}>Javier Cuenca Gento</span> for 
+                <a href='https://www.uc3m.es/Home'> UC3M</a></p>
+            </div>
+        </div>
+        </div>
         </Layout>
     );
 }

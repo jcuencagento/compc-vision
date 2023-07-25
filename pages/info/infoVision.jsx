@@ -10,13 +10,14 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../../components/layout';
+import styles from '../../styles/Info.module.css';
 
-export default function infoPruebalo() {
+export default function infoVision() {
 
 
     return (
         <Layout>
-            <h1>Información de sección pruebalo</h1>
+            <h1>Información sobre Computer Vision</h1>
         </Layout>
     );
 }
