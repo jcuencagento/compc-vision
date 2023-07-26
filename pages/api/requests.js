@@ -5,10 +5,7 @@ const translate = require('translate-google');
 import fs from 'fs';
 
 export const fetchAmazonAPI = (image) => {
-    console.log({ imageAWS: image });
-    console.log({ split: image.split('uploads\\') });
     const image_url = '/app/public/uploads/' + image.split('uploads\\')[1];
-    console.log({ image_url });
     return new Promise((resolve, reject) => {
         fs.readFile(image_url, (err, imageBytes) => {
             if (err) {
@@ -45,7 +42,6 @@ export const fetchAmazonAPI = (image) => {
 
 export const fetchGoogleAPI = (image) => {
     const image_url = '/app/public/uploads/' + image.split('uploads\\')[1];
-    console.log({ imageGoogle: image_url });
     return new Promise((resolve, reject) => {
         /*
         const imageBytes = Buffer.from(image.buffer, 'base64');
@@ -77,15 +73,12 @@ export const fetchAzureAPI = (image) => {
     return new Promise((resolve, reject) => {
         const web_url = 'http://compcvision.duckdns.org/uploads/';
         const image_url = image.split('uploads\\')[1];
-        console.log({ imageAzure: web_url + image_url });
         cv_client
             .analyzeImage(web_url+image_url, { visualFeatures: ['Description'] })
             .then((image_analysis) => {
-                console.log({ image_analysis });
                 if (image_analysis.description.captions.length > 0) {
                     const captions = image_analysis.description.captions;
                     const first_caption = captions[0].text;
-                    console.log({ first_caption });
 
                     translate(first_caption, { from: 'en', to: 'es' })
                         .then((translated_caption) => {
@@ -96,8 +89,6 @@ export const fetchAzureAPI = (image) => {
                         });
                 } else {
                     const with_tags = image_analysis.description.tags.slice(0, 3).join(', ');
-                    console.log({ with_tags });
-
                     translate(with_tags, { from: 'en', to: 'es' })
                         .then((translated_caption) => {
                             resolve(translated_caption);
