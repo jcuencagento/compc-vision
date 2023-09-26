@@ -14,11 +14,6 @@ const transformResponsesToImageDescriptions = (image, results) => {
     const aws_response = results[0];
     const google_response = results[1];
     const azure_response = results[2];
-
-    console.log({ aws_response });
-    console.log({ google_response });
-    console.log({ azure_response });
-
     const image_description = {
         image_name: image,
         aws_description: aws_response,

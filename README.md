@@ -1,6 +1,12 @@
 # Vision APIs Comparator Web
-Página web para el Trabajo Fin de Grado de Javier Cuenca Gento en la UC3M.
+Web page for Trabajo Fin de Grado Javier Cuenca Gento for UC3M.
+Tutor: Daniel Díaz Sánchez
 
-**Build**   -> docker build . -t tfg-nextjs:latest
+**Build** and **run** with Docker.
 
-**Run**     -> docker run -v C:\Users\cuenc\OneDrive\Escritorio\Programacion\compc-vision\public\uploads:/app/public/uploads -v C:\Users\cuenc\OneDrive\Escritorio\Programacion\compc-vision\public\passwords:/app/public/passwords -p 3003:3003 --rm -it tfg-nextjs sh
+**Paswords** and **credentials** for Google, Amazon and Microsoft
+are obviously not included in git.
+
+Also the **image dataset** and its descriptions are not included in repository.
+
+No uploaded image is stored either locally nor remotely.

@@ -116,7 +116,6 @@ export default function Survey({ shuffledImageDescriptions }) {
                 });
 
                 try {
-                    console.log(' - Introduzco datos en SQL...');
                     await axios.post('/api/db-insert', surveyResponses);
                     setFinish(true);
                     router.push('/');

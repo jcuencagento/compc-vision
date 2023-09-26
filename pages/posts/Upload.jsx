@@ -23,22 +23,14 @@ export default function Upload() {
                     setUploading(true);
                     const formData = new FormData();
                     formData.append('image', imageUploaded);
-
-                    console.log({ imageUploaded })
-                    console.log({ formData });
-
                     const response = await fetch('/api/image-descriptions', {
                         method: 'POST',
                         body: formData
                     });
 
                     if (!response.ok) {
-                        console.log({ response });
                         throw new Error('An error occurred while fetching image descriptions');
                     }
-
-                    console.log('Upload useEffect');
-                    console.log({ response });
 
                     const data = await response.json();
                     setUploading(false);
@@ -66,7 +58,6 @@ export default function Upload() {
         });
 
         try {
-            console.log(' - Introduzco datos en SQL...');
             await axios.post('/api/db-insert', response);
             router.push('/');
         } catch (error) {

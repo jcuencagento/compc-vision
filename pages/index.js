@@ -1,11 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import stylesUtils from '../styles/utils.module.css';
-import Footer from '../components/footer';
-import MyHeader from '../components/myheader';
 import { useEffect, useState } from 'react';
-import Layout from '../components/layout';
 
 export default function Home() {
     useEffect(() => {
@@ -28,13 +24,6 @@ export default function Home() {
         });
     };
 
-    const handleCompVision = () => {
-        swal({
-            title: 'No disponible',
-            text: 'Disculpe, esta página está en mantenimiento...'
-        });
-    };
-
     return (
         <div className={styles.pageWrapper}>
             <Head>
@@ -46,7 +35,7 @@ export default function Home() {
                     <a className={styles.inicio} href="/" />
                     <a href="/survey/Survey">Encuesta</a>
                     <a href="/posts/Upload">Pruébalo</a>
-                    <a href="#" onClick={handleCompVision}>Computer Vision</a>
+                    <a href="#">Computer Vision</a>
                     <a href="/info/termsConditions">Términos</a>
                 </div>
                 <div className={styles.headerIcons}>
@@ -69,9 +58,9 @@ export default function Home() {
                         <img src="/img/pruebalo.jpg" alt="Upload Icon" />
                     </div>
                     <h3>Pruébalo</h3>
-                    <p>Muestra una foto cualquiera y mira las descripciones hechas por Computer Vision.</p>
+                    <p>Muestra una foto cualquiera y mira las descripciones hechas por computer vision.</p>
                 </Link>
-                <Link href="#" onClick={handleCompVision} className={styles.card}>
+                <Link href="/info/infoVision" className={styles.card}>
                     <div className={styles.cardImage}>
                         <img src="/img/compvision.jpg" alt="Info Icon" />
                     </div>

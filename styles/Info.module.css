@@ -19,6 +19,58 @@
     align-self: flex-end;
 }
 
+/* Apply styles to the card links */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    text-align: center;
+    background-color: #afd9fc;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Apply styles to the heading */
+.card h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1f1e1e;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Apply styles to the paragraph */
+.card p {
+    font-size: 1.6vh;
+    line-height: 1.4;
+    text-align: left;
+    color: #252525;
+    padding: 0;
+    margin: 2vh;
+}
+
+/* Apply styles to the image span */
+.cardImage {
+    position: relative;
+    width: 80%;
+    height: 40%;
+    margin-bottom: 2vh;
+}
+
+.cardImage img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 /* Responsive styles for max-width: 600px */
 @media (max-width: 600px) {
     .grid {
@@ -32,5 +84,19 @@
         max-width: 85%;
         gap: 5vh;
         padding: 6% 0px 4% 0px; 
+    }
+
+    .card {
+        width: 80%;
+        max-width: 400px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .cardImage {
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 10px;
     }
 }

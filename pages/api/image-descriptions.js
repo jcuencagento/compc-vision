@@ -6,7 +6,6 @@ export default async function handler(req, res) {
             console.error({ err });
             res.status(500).json({ error: 'An error occurred' });
         } else {
-            console.log({ response_imagedescriptions: response });
             res.status(200).json(response);
         }
     });
