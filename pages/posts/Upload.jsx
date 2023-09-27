@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../../components/layout';
 import styles from '../../styles/Survey.module.css';
-import stylesUtils from '../../styles/utils.module.css';
 import ImageUpload from '../../components/imageupload';
 import swal from 'sweetalert';
 import Loader from '../../components/loader';

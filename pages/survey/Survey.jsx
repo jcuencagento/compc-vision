@@ -147,7 +147,7 @@ export default function Survey({ shuffledImageDescriptions }) {
 
 export async function getStaticProps() {
     const { shuffleArray } = await import('../../public/utils');
-    const imageDescriptions = await import('../../public/image_descriptions.json');
+    const imageDescriptions = await import('../../public/desc/image_descriptions.json');
     const shuffledImageDescriptions = shuffleArray(imageDescriptions.default);
     return {
         props: {

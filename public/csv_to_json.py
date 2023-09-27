@@ -17,6 +17,6 @@ def csv_to_json(csv_file_path, json_file_path, delimiter='|', encodings=('utf-8'
         json.dump(json_data, json_file, ensure_ascii=False)
 
 # Example usage
-csv_file_path = '/home/javierc/Proyectos/tfg-nextjs/public/image_descriptions.csv'
-json_file_path = '/home/javierc/Proyectos/tfg-nextjs/public/image_descriptions.json'
+csv_file_path = '/home/javierc/Proyectos/tfg-nextjs/public/desc/image_descriptions.csv'
+json_file_path = '/home/javierc/Proyectos/tfg-nextjs/public/desc/image_descriptions.json'
 csv_to_json(csv_file_path, json_file_path)

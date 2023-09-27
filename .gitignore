@@ -36,6 +36,7 @@ yarn-error.log*
 /public/passwords
 /public/images
 /public/img
+/public/desc
 
 # uploaded images
 /public/uploads
